@@ -134,10 +134,10 @@ export default function Sidebar({
                 <div className="mb-6 flex items-center">
                     <div>
                         <h1 className="text-2xl">
-                            <Link href={"/"}>08-189: Viz Tool</Link>
+                            <Link href={"/"}>NCHRP 08-189 <br /> Tool</Link>
                         </h1>
                         <p className="text-sm text-gray-500">
-                            A tool for visualization and analysis.
+                            Evaluation of TSMO Strategies
                         </p>
                     </div>
                 </div>
