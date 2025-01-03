@@ -30,7 +30,7 @@ export default function Home() {
       // Match the search query (case insensitive)
       const matchesSearch = filters.Search
         ? item.Details.toLowerCase().includes(filters.Search.toLowerCase()) ||
-        item.Strategy.toLowerCase().includes(filters.Search.toLowerCase())
+        item.Strategy.toLowerCase().includes(filters.Search.toLowerCase()) || item.Report.toLowerCase().includes(filters.Search.toLowerCase()) || item.KeyAreas.some((keyArea) => keyArea.toLowerCase().includes(filters.Search.toLowerCase())) || item.Category.some((category) => category.toLowerCase().includes(filters.Search.toLowerCase()))
         : true;
 
       // Match the strategy (if strategies are set, match any of them)
