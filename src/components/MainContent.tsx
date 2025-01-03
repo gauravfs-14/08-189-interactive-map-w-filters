@@ -8,7 +8,7 @@ import { NewDataProps } from "@/types/dataProp";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { useToast } from "@/hooks/use-toast";
-import { RiMapPin2Fill } from "react-icons/ri";
+import { FaCircle } from "react-icons/fa";
 
 import dynamic from "next/dynamic";
 
@@ -54,7 +54,7 @@ export default function MainContent({ data }: MapComponentProps) {
                     justifyContent: "center",
                 }}
             >
-                <RiMapPin2Fill size={32} color="#884dee" />
+                <FaCircle size={32} color="#884dee" />
             </div>
         ),
         className: "", // Prevent Leaflet's default styling
