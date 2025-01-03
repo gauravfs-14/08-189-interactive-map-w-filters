@@ -3,52 +3,79 @@
 import Sidebar from "../components/Sidebar";
 import dynamic from "next/dynamic";
 import { useState, useMemo, useCallback } from "react";
-import { FilterProps } from "@/types/filterProps";
-import data from "@/data/generated_dataset.json";
+import { NewFilterProps } from "@/types/filterProps";
+import { NewDataProps } from "@/types/dataProp";
+import data from "@/data/08-189.json";
 
 const MainContent = dynamic(() => import("../components/MainContent"), { ssr: false });
 
 export default function Home() {
   // Calculate min and max years dynamically from the data
-  const minYear = useMemo(() => Math.min(...data.map((item) => item.year)), []);
-  const maxYear = useMemo(() => Math.max(...data.map((item) => item.year)), []);
+  const minYear = useMemo(() => Math.min(...data.map((item: NewDataProps) => item.Year)), []);
+  const maxYear = useMemo(() => Math.max(...data.map((item: NewDataProps) => item.Year)), []);
 
-  const [filters, setFilters] = useState<FilterProps>({
-    search: "",
-    from: minYear.toString(),
-    to: maxYear.toString(),
-    pills: [],
+  const [filters, setFilters] = useState<NewFilterProps>({
+    Search: "",
+    From: minYear.toString(),
+    To: maxYear.toString(),
+    Strategy: [],
+    Category: [],
+    Report: [],
   });
 
-  const handleFiltersChange = useCallback((newFilters: FilterProps) => {
+  const handleFiltersChange = useCallback((newFilters: NewFilterProps) => {
     console.log("Updated Filters:", newFilters);
     setFilters(newFilters);
   }, []);
 
   // Filter the data based on the applied filters
   const filteredData = useMemo(() => {
-    return data.filter((item) => {
+    return data.filter((item: NewDataProps) => {
       // Match the search query (case insensitive)
-      const matchesSearch = filters.search
-        ? item.name.toLowerCase().includes(filters.search.toLowerCase()) ||
-        item.author.toLowerCase().includes(filters.search.toLowerCase())
+      const matchesSearch = filters.Search
+        ? item.Details.toLowerCase().includes(filters.Search.toLowerCase()) ||
+        item.Strategy.toLowerCase().includes(filters.Search.toLowerCase())
         : true;
 
       // Match the year range
       const matchesYear =
-        item.year >= parseInt(filters.from, 10) &&
-        item.year <= parseInt(filters.to, 10);
+        item.Year >= parseInt(filters.From, 10) &&
+        item.Year <= parseInt(filters.To, 10);
 
-      // Match the pills (if pills are set, match any of them)
-      const matchesPills =
-        filters.pills.length > 0
-          ? filters.pills.some((pill) =>
-            item.category.toLowerCase().includes(pill.toLowerCase())
+      // Match the strategy (if strategies are set, match any of them)
+      const matchesStrategy =
+        filters.Strategy.length > 0
+          ? filters.Strategy.some((strategy) =>
+            item.Strategy.toLowerCase().includes(strategy.toLowerCase())
+          )
+          : true;
+
+      // Match the categories (if categories are set, match any of them)
+      const matchesCategory =
+        filters.Category.length > 0
+          ? filters.Category.some((category) =>
+            item.Category.some((itemCategory) =>
+              itemCategory.toLowerCase().includes(category.toLowerCase())
+            )
+          )
+          : true;
+
+      // Match the reports (if reports are set, match any of them)
+      const matchesReport =
+        filters.Report.length > 0
+          ? filters.Report.some((report) =>
+            item.Report.toLowerCase().includes(report.toLowerCase())
           )
           : true;
 
       // Combine all conditions
-      return matchesSearch && matchesYear && matchesPills;
+      return (
+        matchesSearch &&
+        matchesYear &&
+        matchesStrategy &&
+        matchesCategory &&
+        matchesReport
+      );
     });
   }, [filters]);
 

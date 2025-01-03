@@ -4,16 +4,18 @@ import { useEffect, useState, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { Calendar, ChevronLeft, ChevronRight, Search } from "lucide-react";
+import { Calendar, ChevronLeft, ChevronRight, Search, Filter } from "lucide-react";
 import Link from "next/link";
-import { FilterProps } from "@/types/filterProps";
+import { MultiSelect } from "./ui/multi-select";
+import { NewFilterProps } from "@/types/filterProps";
+import data from "@/data/08-189.json"; // Import your dataset
 
 export default function Sidebar({
     onFiltersChange,
     minYear,
     maxYear,
 }: {
-    onFiltersChange: (filters: FilterProps) => void;
+    onFiltersChange: (filters: NewFilterProps) => void;
     minYear: number;
     maxYear: number;
 }) {
@@ -21,31 +23,52 @@ export default function Sidebar({
     const searchParams = useSearchParams();
 
     // States for applied filters
-    const [appliedFilters, setAppliedFilters] = useState<FilterProps>({
-        search: searchParams.get("search") || "",
-        from: searchParams.get("from") || minYear.toString(),
-        to: searchParams.get("to") || maxYear.toString(),
-        pills: searchParams.get("pills")?.split(",") || [],
+    const [appliedFilters, setAppliedFilters] = useState<NewFilterProps>({
+        Search: searchParams.get("search") || "",
+        From: searchParams.get("from") || minYear.toString(),
+        To: searchParams.get("to") || maxYear.toString(),
+        Strategy: searchParams.get("strategy")?.split(",") || [],
+        Category: searchParams.get("category")?.split(",") || [],
+        Report: searchParams.get("report")?.split(",") || [],
     });
 
     // States for user input
-    const [search, setSearch] = useState(appliedFilters.search);
+    const [search, setSearch] = useState(appliedFilters.Search);
     const [yearRange, setYearRange] = useState({
-        from: appliedFilters.from,
-        to: appliedFilters.to,
+        From: appliedFilters.From,
+        To: appliedFilters.To,
     });
-    const [selectedPills, setSelectedPills] = useState<string[]>(appliedFilters.pills);
+    const [selectedStrategies, setSelectedStrategies] = useState<string[]>(appliedFilters.Strategy);
+    const [selectedCategories, setSelectedCategories] = useState<string[]>(appliedFilters.Category);
+    const [selectedReports, setSelectedReports] = useState<string[]>(appliedFilters.Report);
+
+    const [strategies, setStrategies] = useState<string[]>([]);
+    const [categories, setCategories] = useState<string[]>([]);
+    const [reports, setReports] = useState<string[]>([]);
 
     const [isCollapsed, setIsCollapsed] = useState(false);
 
+    // Extract unique values for Strategy, Category, and Report
+    useEffect(() => {
+        const uniqueStrategies = Array.from(new Set(data.map((item) => item.Strategy)));
+        const uniqueCategories = Array.from(new Set(data.flatMap((item) => item.Category)));
+        const uniqueReports = Array.from(new Set(data.map((item) => item.Report)));
+
+        setStrategies(uniqueStrategies);
+        setCategories(uniqueCategories);
+        setReports(uniqueReports);
+    }, []);
+
     // Update Query Params
     const updateQueryParams = useCallback(
-        (filters: FilterProps) => {
+        (filters: NewFilterProps) => {
             const query = new URLSearchParams();
-            if (filters.search) query.set("search", filters.search);
-            if (filters.from) query.set("from", filters.from);
-            if (filters.to) query.set("to", filters.to);
-            if (filters.pills.length > 0) query.set("pills", filters.pills.join(","));
+            if (filters.Search) query.set("search", filters.Search);
+            if (filters.From) query.set("from", filters.From);
+            if (filters.To) query.set("to", filters.To);
+            if (filters.Strategy.length > 0) query.set("strategy", filters.Strategy.join(","));
+            if (filters.Category.length > 0) query.set("category", filters.Category.join(","));
+            if (filters.Report.length > 0) query.set("report", filters.Report.join(","));
 
             router.push(`?${query.toString()}`);
         },
@@ -54,47 +77,41 @@ export default function Sidebar({
 
     // Apply Filters
     const applyFilters = useCallback(() => {
-        const filters: FilterProps = {
-            search,
-            from: yearRange.from,
-            to: yearRange.to,
-            pills: selectedPills,
+        const filters: NewFilterProps = {
+            Search: search,
+            From: yearRange.From,
+            To: yearRange.To,
+            Strategy: selectedStrategies,
+            Category: selectedCategories,
+            Report: selectedReports,
         };
 
         setAppliedFilters(filters);
         updateQueryParams(filters);
         onFiltersChange(filters);
-    }, [search, yearRange, selectedPills, updateQueryParams, onFiltersChange]);
+    }, [search, yearRange, selectedStrategies, selectedCategories, selectedReports, updateQueryParams, onFiltersChange]);
 
     // Reset Filters
     const resetFilters = useCallback(() => {
-        const defaultFilters: FilterProps = {
-            search: "",
-            from: minYear.toString(),
-            to: maxYear.toString(),
-            pills: [],
+        const defaultFilters: NewFilterProps = {
+            Search: "",
+            From: minYear.toString(),
+            To: maxYear.toString(),
+            Strategy: [],
+            Category: [],
+            Report: [],
         };
 
-        setSearch(defaultFilters.search);
-        setYearRange({ from: defaultFilters.from, to: defaultFilters.to });
-        setSelectedPills(defaultFilters.pills);
+        setSearch(defaultFilters.Search);
+        setYearRange({ From: defaultFilters.From, To: defaultFilters.To });
+        setSelectedStrategies([]);
+        setSelectedCategories([]);
+        setSelectedReports([]);
 
         setAppliedFilters(defaultFilters);
         updateQueryParams(defaultFilters);
         onFiltersChange(defaultFilters);
     }, [minYear, maxYear, updateQueryParams, onFiltersChange]);
-
-    // Handle Pill Selection
-    const togglePill = useCallback(
-        (pill: string) => {
-            setSelectedPills((prevPills) =>
-                prevPills.includes(pill)
-                    ? prevPills.filter((item) => item !== pill)
-                    : [...prevPills, pill]
-            );
-        },
-        []
-    );
 
     // Sync Query Params on Initial Load
     useEffect(() => {
@@ -103,8 +120,7 @@ export default function Sidebar({
 
     return (
         <div
-            className={`bg-white text-gray-800 border-r border-gray-200 p-4 transition-all duration-300 ${isCollapsed ? "w-16" : "w-72"
-                } h-screen flex-shrink-0 relative`}
+            className={`bg-white text-gray-800 border-r border-gray-200 p-4 transition-all duration-300 ${isCollapsed ? "w-16" : "w-72"} h-screen flex-shrink-0 relative`}
         >
             {/* Collapse Button */}
             <Button
@@ -156,46 +172,64 @@ export default function Sidebar({
                                 type="number"
                                 min={minYear}
                                 max={maxYear}
-                                value={yearRange.from}
-                                onChange={(e) =>
-                                    setYearRange({
-                                        ...yearRange,
-                                        from: e.target.value,
-                                    })
-                                }
+                                value={yearRange.From}
+                                onChange={(e) => setYearRange({ ...yearRange, From: e.target.value })}
                                 placeholder="From"
                             />
                             <Input
                                 type="number"
                                 min={minYear}
                                 max={maxYear}
-                                value={yearRange.to}
-                                onChange={(e) =>
-                                    setYearRange({
-                                        ...yearRange,
-                                        to: e.target.value,
-                                    })
-                                }
+                                value={yearRange.To}
+                                onChange={(e) => setYearRange({ ...yearRange, To: e.target.value })}
                                 placeholder="To"
                             />
                         </div>
                     </div>
 
-                    {/* Pill-based Selectors */}
+                    {/* Strategy Selector */}
                     <div>
-                        <label className="block text-sm font-medium mb-2">Select Categories</label>
-                        <div className="flex flex-wrap gap-2">
-                            {["Environment", "Urban", "Technology"].map((pill) => (
-                                <Button
-                                    key={pill}
-                                    variant={selectedPills.includes(pill) ? "default" : "outline"}
-                                    className="rounded-full"
-                                    onClick={() => togglePill(pill)}
-                                >
-                                    {pill}
-                                </Button>
-                            ))}
-                        </div>
+                        <label className="block text-sm font-medium mb-2 flex items-center">
+                            <Filter className="mr-2 w-4 h-4" /> Strategies
+                        </label>
+                        <MultiSelect
+                            options={strategies.map((strategy) => ({ value: strategy, label: strategy.length <= 30 ? strategy : strategy.substring(0, 25) + "..." }))}
+                            onValueChange={setSelectedStrategies}
+                            defaultValue={selectedStrategies}
+                            value={selectedStrategies}
+                            placeholder="Select strategies"
+                            maxCount={3}
+                        />
+                    </div>
+
+                    {/* Category Selector */}
+                    <div>
+                        <label className="block text-sm font-medium mb-2 flex items-center">
+                            <Filter className="mr-2 w-4 h-4" /> Categories
+                        </label>
+                        <MultiSelect
+                            options={categories.map((category) => ({ value: category, label: category.length <= 30 ? category : category.substring(0, 25) + "..." }))}
+                            onValueChange={setSelectedCategories}
+                            defaultValue={selectedCategories}
+                            value={selectedCategories}
+                            placeholder="Select categories"
+                            maxCount={3}
+                        />
+                    </div>
+
+                    {/* Report Selector */}
+                    <div>
+                        <label className="block text-sm font-medium mb-2 flex items-center">
+                            <Filter className="mr-2 w-4 h-4" /> Reports
+                        </label>
+                        <MultiSelect
+                            options={reports.map((report) => ({ value: report, label: report.length <= 30 ? report : report.substring(0, 25) + "..." }))}
+                            onValueChange={setSelectedReports}
+                            defaultValue={selectedReports}
+                            value={selectedReports}
+                            placeholder="Select reports"
+                            maxCount={3}
+                        />
                     </div>
 
                     {/* Reset and Apply Buttons */}
