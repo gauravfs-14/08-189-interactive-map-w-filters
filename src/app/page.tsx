@@ -14,9 +14,7 @@ export default function Home() {
   const [filters, setFilters] = useState<NewFilterProps>({
     Search: "",
     Strategy: [],
-    Category: [],
-    Report: [],
-    KeyAreas: [],
+    Category: []
   });
 
   const handleFiltersChange = useCallback((newFilters: NewFilterProps) => {
@@ -51,30 +49,11 @@ export default function Home() {
           )
           : true;
 
-      // Match the reports (if reports are set, match any of them)
-      const matchesReport =
-        filters.Report.length > 0
-          ? filters.Report.some((report) =>
-            item.Report.toLowerCase().includes(report.toLowerCase())
-          )
-          : true;
-
-      const matchesKeyAreas =
-        filters.KeyAreas.length > 0
-          ? filters.KeyAreas.some((keyArea) =>
-            item.KeyAreas.some((itemKeyArea) =>
-              itemKeyArea.toLowerCase().includes(keyArea.toLowerCase())
-            )
-          )
-          : true;
-
       // Combine all conditions
       return (
         matchesSearch &&
         matchesStrategy &&
-        matchesCategory &&
-        matchesReport &&
-        matchesKeyAreas
+        matchesCategory
       );
     });
   }, [filters]);
