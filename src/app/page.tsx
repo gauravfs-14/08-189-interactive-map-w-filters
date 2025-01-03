@@ -21,6 +21,7 @@ export default function Home() {
     Strategy: [],
     Category: [],
     Report: [],
+    KeyAreas: [],
   });
 
   const handleFiltersChange = useCallback((newFilters: NewFilterProps) => {
@@ -68,13 +69,23 @@ export default function Home() {
           )
           : true;
 
+      const matchesKeyAreas =
+        filters.KeyAreas.length > 0
+          ? filters.KeyAreas.some((keyArea) =>
+            item.KeyAreas.some((itemKeyArea) =>
+              itemKeyArea.toLowerCase().includes(keyArea.toLowerCase())
+            )
+          )
+          : true;
+
       // Combine all conditions
       return (
         matchesSearch &&
         matchesYear &&
         matchesStrategy &&
         matchesCategory &&
-        matchesReport
+        matchesReport &&
+        matchesKeyAreas
       );
     });
   }, [filters]);

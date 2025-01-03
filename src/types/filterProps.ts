@@ -12,4 +12,5 @@ export interface NewFilterProps {
     Strategy: string[];
     Category: string[];
     Report: string[];
+    KeyAreas: string[];
 }
