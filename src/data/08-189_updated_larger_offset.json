@@ -920,8 +920,7 @@
         "KeyAreas": [
             "High-Occupancy Vehicle (HOV) Lanes",
             "Value-Priced or High-Occupancy Toll (HOT) Lanes",
-            "Exclusive Lanes (e.g.",
-            "bus or truck-only lanes)",
+            "Exclusive Lanes (e.g. bus or truck-only lanes)",
             "Separation Bypass Lanes",
             "Lane Restrictions"
         ],
@@ -942,8 +941,7 @@
         "KeyAreas": [
             "Policy and Procedures",
             "Public Relations",
-            "Education",
-            "and Outreach",
+            "Education and Outreach",
             "Modeling and Impact Analysis",
             "Planning and Programming",
             "Project Development and Design"
