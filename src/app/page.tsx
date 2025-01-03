@@ -10,14 +10,9 @@ import data from "@/data/08-189_updated_larger_offset.json";
 const MainContent = dynamic(() => import("../components/MainContent"), { ssr: false });
 
 export default function Home() {
-  // Calculate min and max years dynamically from the data
-  const minYear = useMemo(() => Math.min(...data.map((item: NewDataProps) => item.Year)), []);
-  const maxYear = useMemo(() => Math.max(...data.map((item: NewDataProps) => item.Year)), []);
 
   const [filters, setFilters] = useState<NewFilterProps>({
     Search: "",
-    From: minYear.toString(),
-    To: maxYear.toString(),
     Strategy: [],
     Category: [],
     Report: [],
@@ -35,13 +30,8 @@ export default function Home() {
       // Match the search query (case insensitive)
       const matchesSearch = filters.Search
         ? item.Details.toLowerCase().includes(filters.Search.toLowerCase()) ||
-        item.Strategy.toLowerCase().includes(filters.Search.toLowerCase())
+        item.Strategy.toLowerCase().includes(filters.Search.toLowerCase()) || item.Report.toLowerCase().includes(filters.Search.toLowerCase()) || item.KeyAreas.some((keyArea) => keyArea.toLowerCase().includes(filters.Search.toLowerCase())) || item.Category.some((category) => category.toLowerCase().includes(filters.Search.toLowerCase()))
         : true;
-
-      // Match the year range
-      const matchesYear =
-        item.Year >= parseInt(filters.From, 10) &&
-        item.Year <= parseInt(filters.To, 10);
 
       // Match the strategy (if strategies are set, match any of them)
       const matchesStrategy =
@@ -81,7 +71,6 @@ export default function Home() {
       // Combine all conditions
       return (
         matchesSearch &&
-        matchesYear &&
         matchesStrategy &&
         matchesCategory &&
         matchesReport &&
@@ -94,8 +83,6 @@ export default function Home() {
     <div className="flex h-screen w-full">
       <Sidebar
         onFiltersChange={handleFiltersChange}
-        minYear={minYear}
-        maxYear={maxYear}
       />
       <MainContent data={filteredData} />
     </div>

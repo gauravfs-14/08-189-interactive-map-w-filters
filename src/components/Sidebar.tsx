@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { Calendar, ChevronLeft, ChevronRight, Search, Filter } from "lucide-react";
+import { ChevronLeft, ChevronRight, Search, Group, InfoIcon, FlagIcon, TargetIcon } from "lucide-react";
 import Link from "next/link";
 import { MultiSelect } from "./ui/multi-select";
 import { NewFilterProps } from "@/types/filterProps";
@@ -12,12 +12,8 @@ import data from "@/data/08-189_updated_larger_offset.json"; // Import your data
 
 export default function Sidebar({
     onFiltersChange,
-    minYear,
-    maxYear,
 }: {
     onFiltersChange: (filters: NewFilterProps) => void;
-    minYear: number;
-    maxYear: number;
 }) {
     const router = useRouter();
     const searchParams = useSearchParams();
@@ -25,8 +21,6 @@ export default function Sidebar({
     // States for applied filters
     const [appliedFilters, setAppliedFilters] = useState<NewFilterProps>({
         Search: searchParams.get("search") || "",
-        From: searchParams.get("from") || minYear.toString(),
-        To: searchParams.get("to") || maxYear.toString(),
         Strategy: searchParams.get("strategy")?.split(",") || [],
         Category: searchParams.get("category")?.split(",") || [],
         Report: searchParams.get("report")?.split(",") || [],
@@ -35,10 +29,6 @@ export default function Sidebar({
 
     // States for user input
     const [search, setSearch] = useState(appliedFilters.Search);
-    const [yearRange, setYearRange] = useState({
-        From: appliedFilters.From,
-        To: appliedFilters.To,
-    });
     const [selectedStrategies, setSelectedStrategies] = useState<string[]>(
         (searchParams.get("strategy")?.split(",")) || []
     );
@@ -78,8 +68,6 @@ export default function Sidebar({
         (filters: NewFilterProps) => {
             const query = new URLSearchParams();
             if (filters.Search) query.set("search", filters.Search);
-            if (filters.From) query.set("from", filters.From);
-            if (filters.To) query.set("to", filters.To);
             if (filters.Strategy.length > 0) query.set("strategy", filters.Strategy.join(","));
             if (filters.Category.length > 0) query.set("category", filters.Category.join(","));
             if (filters.Report.length > 0) query.set("report", filters.Report.join(","));
@@ -94,8 +82,6 @@ export default function Sidebar({
     const applyFilters = useCallback(() => {
         const filters: NewFilterProps = {
             Search: search,
-            From: yearRange.From,
-            To: yearRange.To,
             Strategy: selectedStrategies,
             Category: selectedCategories,
             Report: selectedReports,
@@ -105,12 +91,11 @@ export default function Sidebar({
         setAppliedFilters(filters);
         updateQueryParams(filters);
         onFiltersChange(filters);
-    }, [search, yearRange, selectedStrategies, selectedCategories, selectedReports, selectedKeyAreas, updateQueryParams, onFiltersChange]);
+    }, [search, selectedStrategies, selectedCategories, selectedReports, selectedKeyAreas, updateQueryParams, onFiltersChange]);
 
     // Reset Filters
     const resetFilters = useCallback(() => {
         setSearch("");
-        setYearRange({ From: minYear.toString(), To: maxYear.toString() });
         setSelectedStrategies([]); // Ensure these are arrays
         setSelectedCategories([]);
         setSelectedReports([]);
@@ -118,8 +103,6 @@ export default function Sidebar({
 
         const defaultFilters: NewFilterProps = {
             Search: "",
-            From: minYear.toString(),
-            To: maxYear.toString(),
             Strategy: [],
             Category: [],
             Report: [],
@@ -129,7 +112,7 @@ export default function Sidebar({
         setAppliedFilters(defaultFilters);
         updateQueryParams(defaultFilters);
         onFiltersChange(defaultFilters);
-    }, [minYear, maxYear, updateQueryParams, onFiltersChange]);
+    }, [updateQueryParams, onFiltersChange]);
 
 
     return (
@@ -176,35 +159,11 @@ export default function Sidebar({
                         />
                     </div>
 
-                    {/* Year Range Selector */}
-                    <div>
-                        <label className="block text-sm font-medium mb-2 flex items-center">
-                            <Calendar className="mr-2 w-4 h-4" /> Year Range
-                        </label>
-                        <div className="flex space-x-4">
-                            <Input
-                                type="number"
-                                min={minYear}
-                                max={maxYear}
-                                value={yearRange.From}
-                                onChange={(e) => setYearRange({ ...yearRange, From: e.target.value })}
-                                placeholder="From"
-                            />
-                            <Input
-                                type="number"
-                                min={minYear}
-                                max={maxYear}
-                                value={yearRange.To}
-                                onChange={(e) => setYearRange({ ...yearRange, To: e.target.value })}
-                                placeholder="To"
-                            />
-                        </div>
-                    </div>
 
                     {/* Strategy Selector */}
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
-                            <Filter className="mr-2 w-4 h-4" /> Strategies
+                            <InfoIcon className="mr-2 w-4 h-4" /> Strategies
                         </label>
                         <MultiSelect
                             options={strategies.map((strategy) => ({ value: strategy, label: strategy }))}
@@ -218,7 +177,7 @@ export default function Sidebar({
                     {/* Category Selector */}
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
-                            <Filter className="mr-2 w-4 h-4" /> Categories
+                            <Group className="mr-2 w-4 h-4" /> Categories
                         </label>
                         <MultiSelect
                             options={categories.map((category) => ({ value: category, label: category }))}
@@ -232,7 +191,7 @@ export default function Sidebar({
                     {/* Report Selector */}
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
-                            <Filter className="mr-2 w-4 h-4" /> Reports
+                            <FlagIcon className="mr-2 w-4 h-4" /> Reports
                         </label>
                         <MultiSelect
                             options={reports.map((report) => ({ value: report, label: report }))}
@@ -246,7 +205,7 @@ export default function Sidebar({
                     {/* Key Areas Selector */}
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
-                            <Filter className="mr-2 w-4 h-4" /> Key Areas
+                            <TargetIcon className="mr-2 w-4 h-4" /> Key Areas
                         </label>
                         <MultiSelect
                             options={keyAreas.map((keyArea) => ({ value: keyArea, label: keyArea }))}

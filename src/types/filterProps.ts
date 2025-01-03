@@ -7,8 +7,6 @@ export interface FilterProps {
 
 export interface NewFilterProps {
     Search: string;
-    From: string;
-    To: string;
     Strategy: string[];
     Category: string[];
     Report: string[];
