@@ -43,24 +43,44 @@ export default function MainContent({ data }: MapComponentProps) {
     }, [data.length, toast]);
 
     // Create a custom icon for markers
-    const customMarkerIcon = divIcon({
-        html: ReactDOMServer.renderToString(
-            <div
-                style={{
-                    color: "red",
-                    fontSize: "24px",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                }}
-            >
-                <FaCircle size={32} color="#884dee" />
-            </div>
-        ),
-        className: "", // Prevent Leaflet's default styling
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-    });
+    const customMarkerIcon = (strategy: string) =>
+        divIcon({
+            html: ReactDOMServer.renderToString(
+                <div
+                    style={{
+                        position: "relative",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexDirection: "column",
+                    }}
+                >
+                    {/* Initials above the circle */}
+                    <div
+                        style={{
+                            fontSize: "14px",
+                            fontWeight: "bold",
+                            color: "#ffffff",
+                            textAlign: "center",
+                            zIndex: 999,
+                            position: "absolute"
+                        }}
+                    >
+                        {strategy
+                            .split(" ")
+                            .slice(0, 2)
+                            .map((word) => word[0]?.toUpperCase())
+                            .join("")}
+                    </div>
+                    {/* Circle Icon */}
+                    <FaCircle size={32} color="#884dee" />
+                </div>
+            ),
+            className: "", // Prevent Leaflet's default styling
+            iconSize: [32, 42], // Adjust height to accommodate initials
+            iconAnchor: [16, 42], // Anchor adjusted for the taller icon
+        });
+
 
     // Calculate bounds to fit all markers if data is available
     const bounds = data.length
@@ -85,7 +105,7 @@ export default function MainContent({ data }: MapComponentProps) {
                     <Marker
                         key={index}
                         position={[location.Latitude, location.Longitude] as LatLngExpression}
-                        icon={customMarkerIcon}
+                        icon={customMarkerIcon(location.Strategy)}
                     >
                         <Popup>
                             <h4 className="text-lg font-bold mb-2">{location.Strategy}</h4>
