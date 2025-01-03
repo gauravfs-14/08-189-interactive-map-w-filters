@@ -8,7 +8,7 @@ import { Calendar, ChevronLeft, ChevronRight, Search, Filter } from "lucide-reac
 import Link from "next/link";
 import { MultiSelect } from "./ui/multi-select";
 import { NewFilterProps } from "@/types/filterProps";
-import data from "@/data/08-189.json"; // Import your dataset
+import data from "@/data/08-189_updated_larger_offset.json"; // Import your dataset
 
 export default function Sidebar({
     onFiltersChange,
@@ -75,6 +75,7 @@ export default function Sidebar({
         [router]
     );
 
+
     // Apply Filters
     const applyFilters = useCallback(() => {
         const filters: NewFilterProps = {
@@ -92,6 +93,7 @@ export default function Sidebar({
     }, [search, yearRange, selectedStrategies, selectedCategories, selectedReports, updateQueryParams, onFiltersChange]);
 
     // Reset Filters
+
     const resetFilters = useCallback(() => {
         const defaultFilters: NewFilterProps = {
             Search: "",
@@ -102,16 +104,20 @@ export default function Sidebar({
             Report: [],
         };
 
+        setAppliedFilters(defaultFilters);
         setSearch(defaultFilters.Search);
         setYearRange({ From: defaultFilters.From, To: defaultFilters.To });
         setSelectedStrategies([]);
         setSelectedCategories([]);
         setSelectedReports([]);
-
-        setAppliedFilters(defaultFilters);
         updateQueryParams(defaultFilters);
         onFiltersChange(defaultFilters);
-    }, [minYear, maxYear, updateQueryParams, onFiltersChange]);
+    }, [
+        minYear,
+        maxYear,
+        updateQueryParams,
+        onFiltersChange,
+    ]);
 
     // Sync Query Params on Initial Load
     useEffect(() => {
@@ -137,7 +143,7 @@ export default function Sidebar({
                 <div className="mb-6 flex items-center">
                     <div>
                         <h1 className="text-2xl">
-                            <Link href={"/"}>Map Analysis</Link>
+                            <Link href={"/"}>08-189: Viz Tool</Link>
                         </h1>
                         <p className="text-sm text-gray-500">
                             A tool for visualization and analysis.

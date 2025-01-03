@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import { useState, useMemo, useCallback } from "react";
 import { NewFilterProps } from "@/types/filterProps";
 import { NewDataProps } from "@/types/dataProp";
-import data from "@/data/08-189.json";
+import data from "@/data/08-189_updated_larger_offset.json";
 
 const MainContent = dynamic(() => import("../components/MainContent"), { ssr: false });
 
