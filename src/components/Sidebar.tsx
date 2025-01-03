@@ -193,7 +193,7 @@ export default function Sidebar({
                         />
                     </div>
 
-                    {/* Report Selector */}
+                    {/* Report Selector
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
                             <FlagIcon className="mr-2 w-4 h-4" /> Reports
@@ -205,9 +205,9 @@ export default function Sidebar({
                             placeholder="Select reports"
                             maxCount={3}
                         />
-                    </div>
+                    </div> */}
 
-                    {/* Key Areas Selector */}
+                    {/* Key Areas Selector
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
                             <TargetIcon className="mr-2 w-4 h-4" /> Key Areas
@@ -219,7 +219,7 @@ export default function Sidebar({
                             placeholder="Select key areas"
                             maxCount={3}
                         />
-                    </div>
+                    </div> */}
 
                     {/* Reset and Apply Buttons */}
                     <div className="space-y-4">
