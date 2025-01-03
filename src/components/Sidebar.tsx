@@ -30,6 +30,7 @@ export default function Sidebar({
         Strategy: searchParams.get("strategy")?.split(",") || [],
         Category: searchParams.get("category")?.split(",") || [],
         Report: searchParams.get("report")?.split(",") || [],
+        KeyAreas: searchParams.get("keyAreas")?.split(",") || [],
     });
 
     // States for user input
@@ -38,13 +39,24 @@ export default function Sidebar({
         From: appliedFilters.From,
         To: appliedFilters.To,
     });
-    const [selectedStrategies, setSelectedStrategies] = useState<string[]>(appliedFilters.Strategy);
-    const [selectedCategories, setSelectedCategories] = useState<string[]>(appliedFilters.Category);
-    const [selectedReports, setSelectedReports] = useState<string[]>(appliedFilters.Report);
+    const [selectedStrategies, setSelectedStrategies] = useState<string[]>(
+        (searchParams.get("strategy")?.split(",")) || []
+    );
+    const [selectedCategories, setSelectedCategories] = useState<string[]>(
+        (searchParams.get("category")?.split(",")) || []
+    );
+    const [selectedReports, setSelectedReports] = useState<string[]>(
+        (searchParams.get("report")?.split(",")) || []
+    );
+    const [selectedKeyAreas, setSelectedKeyAreas] = useState<string[]>(
+        (searchParams.get("keyAreas")?.split(",")) || []
+    );
+
 
     const [strategies, setStrategies] = useState<string[]>([]);
     const [categories, setCategories] = useState<string[]>([]);
     const [reports, setReports] = useState<string[]>([]);
+    const [keyAreas, setKeyAreas] = useState<string[]>([]);
 
     const [isCollapsed, setIsCollapsed] = useState(false);
 
@@ -53,10 +65,12 @@ export default function Sidebar({
         const uniqueStrategies = Array.from(new Set(data.map((item) => item.Strategy)));
         const uniqueCategories = Array.from(new Set(data.flatMap((item) => item.Category)));
         const uniqueReports = Array.from(new Set(data.map((item) => item.Report)));
+        const uniqueKeyAreas = Array.from(new Set(data.flatMap((item) => item.KeyAreas)));
 
         setStrategies(uniqueStrategies);
         setCategories(uniqueCategories);
         setReports(uniqueReports);
+        setKeyAreas(uniqueKeyAreas);
     }, []);
 
     // Update Query Params
@@ -69,12 +83,12 @@ export default function Sidebar({
             if (filters.Strategy.length > 0) query.set("strategy", filters.Strategy.join(","));
             if (filters.Category.length > 0) query.set("category", filters.Category.join(","));
             if (filters.Report.length > 0) query.set("report", filters.Report.join(","));
+            if (filters.KeyAreas.length > 0) query.set("keyAreas", filters.KeyAreas.join(","));
 
             router.push(`?${query.toString()}`);
         },
         [router]
     );
-
 
     // Apply Filters
     const applyFilters = useCallback(() => {
@@ -85,16 +99,23 @@ export default function Sidebar({
             Strategy: selectedStrategies,
             Category: selectedCategories,
             Report: selectedReports,
+            KeyAreas: selectedKeyAreas,
         };
 
         setAppliedFilters(filters);
         updateQueryParams(filters);
         onFiltersChange(filters);
-    }, [search, yearRange, selectedStrategies, selectedCategories, selectedReports, updateQueryParams, onFiltersChange]);
+    }, [search, yearRange, selectedStrategies, selectedCategories, selectedReports, selectedKeyAreas, updateQueryParams, onFiltersChange]);
 
     // Reset Filters
-
     const resetFilters = useCallback(() => {
+        setSearch("");
+        setYearRange({ From: minYear.toString(), To: maxYear.toString() });
+        setSelectedStrategies([]); // Ensure these are arrays
+        setSelectedCategories([]);
+        setSelectedReports([]);
+        setSelectedKeyAreas([]);
+
         const defaultFilters: NewFilterProps = {
             Search: "",
             From: minYear.toString(),
@@ -102,27 +123,14 @@ export default function Sidebar({
             Strategy: [],
             Category: [],
             Report: [],
+            KeyAreas: [],
         };
 
         setAppliedFilters(defaultFilters);
-        setSearch(defaultFilters.Search);
-        setYearRange({ From: defaultFilters.From, To: defaultFilters.To });
-        setSelectedStrategies([]);
-        setSelectedCategories([]);
-        setSelectedReports([]);
         updateQueryParams(defaultFilters);
         onFiltersChange(defaultFilters);
-    }, [
-        minYear,
-        maxYear,
-        updateQueryParams,
-        onFiltersChange,
-    ]);
+    }, [minYear, maxYear, updateQueryParams, onFiltersChange]);
 
-    // Sync Query Params on Initial Load
-    useEffect(() => {
-        onFiltersChange(appliedFilters);
-    }, [appliedFilters, onFiltersChange]);
 
     return (
         <div
@@ -199,9 +207,8 @@ export default function Sidebar({
                             <Filter className="mr-2 w-4 h-4" /> Strategies
                         </label>
                         <MultiSelect
-                            options={strategies.map((strategy) => ({ value: strategy, label: strategy.length <= 30 ? strategy : strategy.substring(0, 25) + "..." }))}
+                            options={strategies.map((strategy) => ({ value: strategy, label: strategy }))}
                             onValueChange={setSelectedStrategies}
-                            defaultValue={selectedStrategies}
                             value={selectedStrategies}
                             placeholder="Select strategies"
                             maxCount={3}
@@ -214,9 +221,8 @@ export default function Sidebar({
                             <Filter className="mr-2 w-4 h-4" /> Categories
                         </label>
                         <MultiSelect
-                            options={categories.map((category) => ({ value: category, label: category.length <= 30 ? category : category.substring(0, 25) + "..." }))}
+                            options={categories.map((category) => ({ value: category, label: category }))}
                             onValueChange={setSelectedCategories}
-                            defaultValue={selectedCategories}
                             value={selectedCategories}
                             placeholder="Select categories"
                             maxCount={3}
@@ -229,11 +235,24 @@ export default function Sidebar({
                             <Filter className="mr-2 w-4 h-4" /> Reports
                         </label>
                         <MultiSelect
-                            options={reports.map((report) => ({ value: report, label: report.length <= 30 ? report : report.substring(0, 25) + "..." }))}
+                            options={reports.map((report) => ({ value: report, label: report }))}
                             onValueChange={setSelectedReports}
-                            defaultValue={selectedReports}
                             value={selectedReports}
                             placeholder="Select reports"
+                            maxCount={3}
+                        />
+                    </div>
+
+                    {/* Key Areas Selector */}
+                    <div>
+                        <label className="block text-sm font-medium mb-2 flex items-center">
+                            <Filter className="mr-2 w-4 h-4" /> Key Areas
+                        </label>
+                        <MultiSelect
+                            options={keyAreas.map((keyArea) => ({ value: keyArea, label: keyArea }))}
+                            onValueChange={setSelectedKeyAreas}
+                            value={selectedKeyAreas}
+                            placeholder="Select key areas"
                             maxCount={3}
                         />
                     </div>

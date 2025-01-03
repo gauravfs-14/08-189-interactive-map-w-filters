@@ -92,7 +92,7 @@ export default function MainContent({ data }: MapComponentProps) {
                             <p className="text-sm font-medium">Category: {location.Category.join(", ")}</p>
                             <p className="text-sm font-medium">Report: {location.Report}</p>
                             <p className="text-sm font-normal mt-2">Details: {location.Details}</p>
-                            <p className="text-sm font-normal">Key Areas: {location.KeyAreas.join(", ")}</p>
+                            <p className="text-sm font-semibold">Key Areas: {location.KeyAreas.join(", ")}</p>
                             <Link href={location.Link} target="_blank" rel="noopener noreferrer">
                                 <Button variant="default" size="sm" className="mt-4">
                                     View More Details

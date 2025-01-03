@@ -134,6 +134,7 @@ export const MultiSelect = React.forwardRef<
             maxCount = 3,
             modalPopover = false,
             className,
+            value,
             ...props
         },
         ref
@@ -142,6 +143,12 @@ export const MultiSelect = React.forwardRef<
             React.useState<string[]>(defaultValue);
         const [isPopoverOpen, setIsPopoverOpen] = React.useState(false);
         const [isAnimating, setIsAnimating] = React.useState(false);
+
+        React.useEffect(() => {
+            if (Array.isArray(value)) {
+                setSelectedValues(value as string[]);
+            }
+        }, [value]);
 
         const handleInputKeyDown = (
             event: React.KeyboardEvent<HTMLInputElement>
@@ -223,7 +230,7 @@ export const MultiSelect = React.forwardRef<
                                                 {IconComponent && (
                                                     <IconComponent className="h-4 w-4 mr-2" />
                                                 )}
-                                                {option?.label}
+                                                {option?.label && option.label.length <= 20 ? option?.label : option?.label.slice(0, 20) + "..."}
                                                 <XCircle
                                                     className="ml-2 h-4 w-4 cursor-pointer"
                                                     onClick={(event) => {
