@@ -1,16 +1,16 @@
 [
     {
-        "Strategy":"Active Transportation And Demand Management",
-        "State":"AL",
-        "Latitude":32.4374872376,
-        "Longitude":-86.2667269134,
-        "Year":2023,
-        "Category":[
+        "Strategy": "Active Transportation And Demand Management",
+        "State": "AL",
+        "Latitude": 32.4374872376,
+        "Longitude": -86.2667269134,
+        "Year": 2023,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Active Transportation And Demand Management for ALDOT",
-        "Details":"ALDOT will strive to monitor, control, and influence travel and facility demand of the entire transportaion system and dynamically manage a users entire trip throughout all of their mode choices. Multiple choices go into the users trip choice including destination on Choice, Time of Day Choice, Mode Choice, Route Choice, and Lane\/Facility Choice. All of these choices can be dynamically impacted by decisions made in real time by ALDOT based on current levels of congestion experienced throughout the system.",
-        "KeyAreas":[
+        "Report": "Active Transportation And Demand Management for ALDOT",
+        "Details": "ALDOT will strive to monitor, control, and influence travel and facility demand of the entire transportaion system and dynamically manage a users entire trip throughout all of their mode choices. Multiple choices go into the users trip choice including destination on Choice, Time of Day Choice, Mode Choice, Route Choice, and Lane\/Facility Choice. All of these choices can be dynamically impacted by decisions made in real time by ALDOT based on current levels of congestion experienced throughout the system.",
+        "KeyAreas": [
             "Reversible Lanes",
             "Dynamic Shoulder Lanes",
             "Dynamic Speed Limit",
@@ -21,110 +21,109 @@
             "Variable Tolling",
             "HOV Lanes"
         ],
-        "Link":"https:\/\/tetcoalition.org\/wp-content\/uploads\/2020\/11\/08_ATDM_032020.pdf",
-        "Cluster":-1
+        "Link": "https:\/\/tetcoalition.org\/wp-content\/uploads\/2020\/11\/08_ATDM_032020.pdf",
+        "Cluster": -1
     },
     {
-        "Strategy":"Active Transportation And Demand Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8760143021,
-        "Longitude":-77.003438599,
-        "Year":2019,
-        "Category":[
+        "Strategy": "Active Transportation And Demand Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8760143021,
+        "Longitude": -77.003438599,
+        "Year": 2019,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"AMS Pasadena Testbed \u2013 Simulation Results",
-        "Details":"This report details the development and application of \nthe AMS Chicago Testbed to evaluate Active Transportation and Demand Management (ATDM) and Dynamic Mobility Applications (DMA) strategies. It aims to enhance transportation system performance by improving mobility, safety, and environmental benefits through simulation-based evaluations of various operational strategies under diverse conditions. The study was conducted using data-driven models developed by Northwestern University and supported by the USDOT.",
-        "KeyAreas":[
+        "Report": "AMS Pasadena Testbed \u2013 Simulation Results",
+        "Details": "This report details the development and application of \nthe AMS Chicago Testbed to evaluate Active Transportation and Demand Management (ATDM) and Dynamic Mobility Applications (DMA) strategies. It aims to enhance transportation system performance by improving mobility, safety, and environmental benefits through simulation-based evaluations of various operational strategies under diverse conditions. The study was conducted using data-driven models developed by Northwestern University and supported by the USDOT.",
+        "KeyAreas": [
             "Dynamic Shoulder Lanes",
             "Dynamic Lane Use Control",
-            "Dynamic \nSpeed Limits",
+            "Dynamic Speed Limits",
             "Adaptive Traffic Signal Control",
             "Speed Harmonization",
             "Predictive Traveler Information",
             "Dynamic Routing"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/32534\/dot_32534_DS1.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/32534\/dot_32534_DS1.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Active Transportation And Demand Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8551042757,
-        "Longitude":-76.9781058845,
-        "Year":2020,
-        "Category":[
+        "Strategy": "Active Transportation And Demand Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8551042757,
+        "Longitude": -76.9781058845,
+        "Year": 2020,
+        "Category": [
             "Emerging Technology",
             "Safety",
             "Operations\/Mobility",
             "Big Data"
         ],
-        "Report":"AMS Chicago Testbed and Data",
-        "Details":"This report focuses on the AMS Chicago Testbed, \ndeveloped by Northwestern University under the USDOT\u2019s Active Transportation and Demand Management (ATDM) and Dynamic Mobility Applications (DMA) programs. It aims to evaluate and refine strategies to improve mobility, safety, and environmental performance through simulation and analysis of dynamic traffic management techniques and weather-related operations in the Chicago area.",
-        "KeyAreas":[
+        "Report": "AMS Chicago Testbed and Data",
+        "Details": "This report focuses on the AMS Chicago Testbed, \ndeveloped by Northwestern University under the USDOT\u2019s Active Transportation and Demand Management (ATDM) and Dynamic Mobility Applications (DMA) programs. It aims to evaluate and refine strategies to improve mobility, safety, and environmental performance through simulation and analysis of dynamic traffic management techniques and weather-related operations in the Chicago area.",
+        "KeyAreas": [
             "Predictive Traveler Information",
             "Dynamic Routing",
-            "Dynamic \nShoulder Lanes",
+            "Dynamic Shoulder Lanes",
             "Dynamic Reversible Lanes",
             "Dynamic Speed Limits",
             "Adaptive Traffic Signal Control",
-            "Snow Emergency Parking Management",
-            ""
+            "Snow Emergency Parking Management"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/32652\/dot_32652_DS1.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/32652\/dot_32652_DS1.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Active Transportation And Demand Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8982447015,
-        "Longitude":-76.9817669921,
-        "Year":2013,
-        "Category":[
+        "Strategy": "Active Transportation And Demand Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8982447015,
+        "Longitude": -76.9817669921,
+        "Year": 2013,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Active Transportation and Demand Management",
-        "Details":"This report, developed by the FHWA, outlines \nmethodologies and tools for analyzing and implementing Active Transportation and Demand Management (ATDM) strategies. It aims to enhance traffic flow, reliability, and operational efficiency by providing frameworks and examples, such as converting HOV lanes to HOT lanes, to assess the benefits of ATDM investments under various scenarios.",
-        "KeyAreas":[
+        "Report": "Active Transportation and Demand Management",
+        "Details": "This report, developed by the FHWA, outlines \nmethodologies and tools for analyzing and implementing Active Transportation and Demand Management (ATDM) strategies. It aims to enhance traffic flow, reliability, and operational efficiency by providing frameworks and examples, such as converting HOV lanes to HOT lanes, to assess the benefits of ATDM investments under various scenarios.",
+        "KeyAreas": [
             "Conversion of HOV to HOT Lanes",
             "Scenario-Based Analysis",
             "Performance Metrics",
             "Dynamic Congestion Pricing"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop13036\/fhwahop13036.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop13036\/fhwahop13036.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Active Transportation And Demand Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.930854931,
-        "Longitude":-76.9705194096,
-        "Year":2013,
-        "Category":[
+        "Strategy": "Active Transportation And Demand Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.930854931,
+        "Longitude": -76.9705194096,
+        "Year": 2013,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"The Active Transportation and Demand \nManagement Program (ATDM): Lessons Learned",
-        "Details":"This report documents insights and critical issues from implementing ATDM strategies across the U.S. It aims to guide transportation agencies in dynamically managing travel demand, traffic flow, and system performance to improve safety, efficiency, and sustainability\u200b.",
-        "KeyAreas":[
+        "Report": "The Active Transportation and Demand \nManagement Program (ATDM): Lessons Learned",
+        "Details": "This report documents insights and critical issues from implementing ATDM strategies across the U.S. It aims to guide transportation agencies in dynamically managing travel demand, traffic flow, and system performance to improve safety, efficiency, and sustainability\u200b.",
+        "KeyAreas": [
             "Active Traffic Management",
             "Active Demand Management",
             "Active Parking Management"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop13018\/fhwahop13018.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop13018\/fhwahop13018.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Active Transportation And Demand Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8634690541,
-        "Longitude":-77.0393158774,
-        "Year":2013,
-        "Category":[
+        "Strategy": "Active Transportation And Demand Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8634690541,
+        "Longitude": -77.0393158774,
+        "Year": 2013,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Active Transportation and Demand Management (ATDM)\nFoundational Research",
-        "Details":"This report outlines a framework for evaluating and implementing dynamic traffic and demand management strategies. It aims to enhance system performance through proactive and real-time management, leveraging modeling tools to support planning, design, and operations for improved mobility and safety.",
-        "KeyAreas":[
+        "Report": "Active Transportation and Demand Management (ATDM)\nFoundational Research",
+        "Details": "This report outlines a framework for evaluating and implementing dynamic traffic and demand management strategies. It aims to enhance system performance through proactive and real-time management, leveraging modeling tools to support planning, design, and operations for improved mobility and safety.",
+        "KeyAreas": [
             "Active Demand Management",
             "Active Traffic Management",
             "Active Parking Management",
@@ -132,526 +131,524 @@
             "Dynamic Actions Implementation",
             "Concept of Operations (CONOPS)"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/3381 ",
-        "Cluster":-1
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/3381 ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Arterial Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8419458004,
-        "Longitude":-77.0135889899,
-        "Year":2018,
-        "Category":[
+        "Strategy": "Arterial Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8419458004,
+        "Longitude": -77.0135889899,
+        "Year": 2018,
+        "Category": [
             "Emerging Technology"
         ],
-        "Report":"Arterial Management Intelligent Intersections",
-        "Details":"This report focuses on leveraging connected vehicle \ntechnologies and intelligent intersections to enhance traffic signal control, improve safety, and optimize mobility on arterial networks. Developed under the USDOT\u2019s ITS Joint Program Office, it evaluates the benefits, costs, and best practices of deploying cutting-edge Intelligent Transportation Systems (ITS).",
-        "KeyAreas":[
+        "Report": "Arterial Management Intelligent Intersections",
+        "Details": "This report focuses on leveraging connected vehicle \ntechnologies and intelligent intersections to enhance traffic signal control, improve safety, and optimize mobility on arterial networks. Developed under the USDOT\u2019s ITS Joint Program Office, it evaluates the benefits, costs, and best practices of deploying cutting-edge Intelligent Transportation Systems (ITS).",
+        "KeyAreas": [
             "Connected Vehicle Technologies",
             "Deployment Strategies",
             "Simulation and Field Testing",
             "Interoperability and Standards",
             "Cost and Benefit Analysis"
         ],
-        "Link":"https:\/\/www.itskrs.its.dot.gov\/sites\/default\/files\/2021-09\/executive-briefing\/EB05-Arterial%20Management_%2005_16_19_FINAL.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/www.itskrs.its.dot.gov\/sites\/default\/files\/2021-09\/executive-briefing\/EB05-Arterial%20Management_%2005_16_19_FINAL.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Arterial Management",
-        "State":"IA",
-        "Latitude":42.0221750815,
-        "Longitude":-93.6217952259,
-        "Year":2019,
-        "Category":[
+        "Strategy": "Arterial Management",
+        "State": "IA",
+        "Latitude": 42.0221750815,
+        "Longitude": -93.6217952259,
+        "Year": 2019,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Arterial Traffic Management Strategies",
-        "Details":"This report focuses on arterial traffic management \nstrategies aimed at improving traffic flow, accessibility, and transportation efficiency. It provides an overview of various strategies, such as traffic signal management, adaptive traffic control, and dynamic parking systems, highlighting their benefits, prerequisites, and examples of implementation to optimize urban mobility and reduce congestion.",
-        "KeyAreas":[
+        "Report": "Arterial Traffic Management Strategies",
+        "Details": "This report focuses on arterial traffic management \nstrategies aimed at improving traffic flow, accessibility, and transportation efficiency. It provides an overview of various strategies, such as traffic signal management, adaptive traffic control, and dynamic parking systems, highlighting their benefits, prerequisites, and examples of implementation to optimize urban mobility and reduce congestion.",
+        "KeyAreas": [
             "Traffic Signal Management",
             "Dynamic Parking Wayfinding",
             "Dynamic Parking Reservation",
             "Dynamically Priced Parking",
             "Adaptive Traffic Signal Control"
         ],
-        "Link":"https:\/\/iowadot.gov\/desmoinesicm\/pdf\/IADOT_DSMICM_Arterial%20Traffic%20Management%20Strategies_FINAL.PDF ",
-        "Cluster":-1
+        "Link": "https:\/\/iowadot.gov\/desmoinesicm\/pdf\/IADOT_DSMICM_Arterial%20Traffic%20Management%20Strategies_FINAL.PDF ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Arterial Management",
-        "State":"VA",
-        "Latitude":37.7408771759,
-        "Longitude":-77.4125744047,
-        "Year":2015,
-        "Category":[
+        "Strategy": "Arterial Management",
+        "State": "VA",
+        "Latitude": 37.7408771759,
+        "Longitude": -77.4125744047,
+        "Year": 2015,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Arterial Management Plan\nMethodology",
-        "Details":"This report outlines the methodology for developing \nArterial Management Plans (AMPs) to enhance the efficiency, safety, and capacity of Virginia's arterial highway network. It aims to guide strategic planning and management of corridors to minimize congestion, support economic development, and accommodate future growth without extensive roadway widening.",
-        "KeyAreas":[
+        "Report": "Arterial Management Plan\nMethodology",
+        "Details": "This report outlines the methodology for developing \nArterial Management Plans (AMPs) to enhance the efficiency, safety, and capacity of Virginia's arterial highway network. It aims to guide strategic planning and management of corridors to minimize congestion, support economic development, and accommodate future growth without extensive roadway widening.",
+        "KeyAreas": [
             "Corridor Planning and Management",
             "Traffic Data Collection and Analysis",
             "Access Management",
             "Safety Enhancements",
             "Stakeholder and Public Involvement"
         ],
-        "Link":"https:\/\/tetcoalition.org\/wp-content\/uploads\/2019\/11\/Virginia-2015.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/tetcoalition.org\/wp-content\/uploads\/2019\/11\/Virginia-2015.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Arterial Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8209921893,
-        "Longitude":-77.036979929,
-        "Year":2004,
-        "Category":[
+        "Strategy": "Arterial Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8209921893,
+        "Longitude": -77.036979929,
+        "Year": 2004,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Arterial Management",
-        "Details":"This report by the FHWA Office of Operations addresses\n strategies for managing traffic on arterial roadways, focusing on traffic signal improvements, advanced control systems, and access management techniques. It aims to enhance traffic flow, reduce congestion, and improve safety by leveraging research, development, and deployment of innovative transportation technologies.",
-        "KeyAreas":[
+        "Report": "Arterial Management",
+        "Details": "This report by the FHWA Office of Operations addresses\n strategies for managing traffic on arterial roadways, focusing on traffic signal improvements, advanced control systems, and access management techniques. It aims to enhance traffic flow, reduce congestion, and improve safety by leveraging research, development, and deployment of innovative transportation technologies.",
+        "KeyAreas": [
             "Traffic Signal Improvements",
             "Advanced Traffic Signal Control",
             "Traffic Monitoring",
             "Access Management"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/20652\/dot_20652_DS1.pdf? ",
-        "Cluster":-1
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/20652\/dot_20652_DS1.pdf? ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Arterial Management",
-        "State":"FL",
-        "Latitude":28.5881808967,
-        "Longitude":-81.4154958412,
-        "Year":2016,
-        "Category":[
+        "Strategy": "Arterial Management",
+        "State": "FL",
+        "Latitude": 28.5881808967,
+        "Longitude": -81.4154958412,
+        "Year": 2016,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Active Arterial Management\nTraffic Management Center\nStandard Operating Guidelines",
-        "Details":"This report provides a comprehensive framework for the\n operations of the Orlando Regional Traffic Management Center (RTMC). It aims to enhance traffic management, safety, and mobility on arterial roadways through standardized protocols, Intelligent Transportation Systems (ITS), and real-time monitoring strategies to mitigate congestion and improve roadway efficiency in Florida's District",
-        "KeyAreas":[
+        "Report": "Active Arterial Management\nTraffic Management Center\nStandard Operating Guidelines",
+        "Details": "This report provides a comprehensive framework for the\n operations of the Orlando Regional Traffic Management Center (RTMC). It aims to enhance traffic management, safety, and mobility on arterial roadways through standardized protocols, Intelligent Transportation Systems (ITS), and real-time monitoring strategies to mitigate congestion and improve roadway efficiency in Florida's District",
+        "KeyAreas": [
             "Operational Management",
             "Incident and Event Management",
             "Traffic Signal and Timing Management",
             "Quality Control and Reporting"
         ],
-        "Link":"https:\/\/cflsmartroads.com\/docs\/DRAFT%20FDOT%20D5%20AAM%20SOG%20-%20PJY%20Comments.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/cflsmartroads.com\/docs\/DRAFT%20FDOT%20D5%20AAM%20SOG%20-%20PJY%20Comments.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Arterial Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.9070983928,
-        "Longitude":-77.0222110289,
-        "Year":1988,
-        "Category":[
+        "Strategy": "Arterial Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9070983928,
+        "Longitude": -77.0222110289,
+        "Year": 1988,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Freeway and Arterial Management Effort (FAME) Research Plan ",
-        "Details":"This report focuses on developing strategies and \ntechnologies to enhance the management and operation of freeway and arterial systems. It aims to improve traffic flow, reduce congestion, and integrate innovative solutions to optimize mobility and safety across transportation networks.",
-        "KeyAreas":[
+        "Report": "Freeway and Arterial Management Effort (FAME) Research Plan ",
+        "Details": "This report focuses on developing strategies and \ntechnologies to enhance the management and operation of freeway and arterial systems. It aims to improve traffic flow, reduce congestion, and integrate innovative solutions to optimize mobility and safety across transportation networks.",
+        "KeyAreas": [
             "Park and Ride",
             "HOV Lane Analysis",
             "Ramp Metering"
         ],
-        "Link":"https:\/\/www.wsdot.wa.gov\/research\/reports\/fullreports\/171.1.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/www.wsdot.wa.gov\/research\/reports\/fullreports\/171.1.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Bottleneck Mitigation",
-        "State":"Washington, D.C.",
-        "Latitude":38.8728966574,
-        "Longitude":-76.9517835451,
-        "Year":2020,
-        "Category":[
+        "Strategy": "Bottleneck Mitigation",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8728966574,
+        "Longitude": -76.9517835451,
+        "Year": 2020,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Bottleneck Removal",
-        "Details":"This report focuses on bottleneck removal as a cost-effective strategy to reduce localized congestion and improve traffic flow on highways. It highlights methods such as restriping, lane additions, and ramp modifications, emphasizing their safety and efficiency benefits while addressing implementation challenges. The report aims to guide transportation agencies in mitigating congestion through low-cost, high-impact solutions.",
-        "KeyAreas":[
+        "Report": "Bottleneck Removal",
+        "Details": "This report focuses on bottleneck removal as a cost-effective strategy to reduce localized congestion and improve traffic flow on highways. It highlights methods such as restriping, lane additions, and ramp modifications, emphasizing their safety and efficiency benefits while addressing implementation challenges. The report aims to guide transportation agencies in mitigating congestion through low-cost, high-impact solutions.",
+        "KeyAreas": [
             "Bottleneck Identification",
             "Low-Cost Solutions",
-            "Benefits of \nBottleneck Removal",
+            "Benefits of Bottleneck Removal",
             "Implementation Challenges"
         ],
-        "Link":"https:\/\/static.tti.tamu.edu\/tti.tamu.edu\/documents\/policy\/congestion-mitigation\/bottleneck-removal.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/static.tti.tamu.edu\/tti.tamu.edu\/documents\/policy\/congestion-mitigation\/bottleneck-removal.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Bottleneck Mitigation",
-        "State":"Washington, D.C.",
-        "Latitude":38.8187603844,
-        "Longitude":-76.9877716979,
-        "Year":2011,
-        "Category":[
+        "Strategy": "Bottleneck Mitigation",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8187603844,
+        "Longitude": -76.9877716979,
+        "Year": 2011,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"An Agency Guide on How to Establish Localized Congestion Mitigation Programs",
-        "Details":"This report, developed by the FHWA, provides guidance for state and local agencies on establishing Localized Bottleneck Reduction (LBR) programs. It aims to mitigate recurring, point-specific congestion through low-cost, quick-to-implement operational improvements, offering templates, case studies, and strategies for effective program implementation and evaluation.",
-        "KeyAreas":[
+        "Report": "An Agency Guide on How to Establish Localized Congestion Mitigation Programs",
+        "Details": "This report, developed by the FHWA, provides guidance for state and local agencies on establishing Localized Bottleneck Reduction (LBR) programs. It aims to mitigate recurring, point-specific congestion through low-cost, quick-to-implement operational improvements, offering templates, case studies, and strategies for effective program implementation and evaluation.",
+        "KeyAreas": [
             "Program Structuring and Implementation",
-            "Bottleneck \nIdentification and Assessment",
+            "Bottleneck Identification and Assessment",
             "Low-Cost Operational Improvements",
             "Case Studies and Best Practices"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/41060 ",
-        "Cluster":-1
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/41060 ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Bottleneck Mitigation",
-        "State":"Washington, D.C.",
-        "Latitude":38.8387750624,
-        "Longitude":-76.9405554967,
-        "Year":2016,
-        "Category":[
+        "Strategy": "Bottleneck Mitigation",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8387750624,
+        "Longitude": -76.9405554967,
+        "Year": 2016,
+        "Category": [
             "Operations\/Mobility",
             "Big Data"
         ],
-        "Report":"Traffic Bottlenecks: Identification\nand Solutions",
-        "Details":"This report, \"Traffic Bottlenecks: Identification and Solutions,\" focuses on identifying and prioritizing traffic bottlenecks using data-driven methods, innovative tools, and performance measures. It aims to propose cost-effective and practical mitigation strategies to reduce congestion, improve traffic flow, and enhance overall mobility.",
-        "KeyAreas":[
+        "Report": "Traffic Bottlenecks: Identification\nand Solutions",
+        "Details": "This report, \"Traffic Bottlenecks: Identification and Solutions,\" focuses on identifying and prioritizing traffic bottlenecks using data-driven methods, innovative tools, and performance measures. It aims to propose cost-effective and practical mitigation strategies to reduce congestion, improve traffic flow, and enhance overall mobility.",
+        "KeyAreas": [
             "Bottleneck Identification",
             "Mitigation Concepts",
             "Cost-Effective Solutions",
             "Data and Technology Integration"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/39938\/dot_39938_DS1.pdf ",
-        "Cluster":0
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/39938\/dot_39938_DS1.pdf ",
+        "Cluster": 0
     },
     {
-        "Strategy":"Bottleneck Mitigation",
-        "State":"NC",
-        "Latitude":36.1746010585,
-        "Longitude":-78.6883678811,
-        "Year":2017,
-        "Category":[
+        "Strategy": "Bottleneck Mitigation",
+        "State": "NC",
+        "Latitude": 36.1746010585,
+        "Longitude": -78.6883678811,
+        "Year": 2017,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Developing a Systematic Approach to Improving\nBottleneck Analysis in North Carolina",
-        "Details":"This report, titled \"Developing a Systematic Approach to Improving Bottleneck Analysis in North Carolina,\" aims to create a comprehensive framework for identifying, analyzing, and mitigating freeway bottlenecks at a system-wide level. It uses dynamic traffic assignment models and vehicle probe data to prioritize bottleneck mitigation projects, improve traffic flow, and assist decision-makers in allocating transportation resources effectively.",
-        "KeyAreas":[
+        "Report": "Developing a Systematic Approach to Improving\nBottleneck Analysis in North Carolina",
+        "Details": "This report, titled \"Developing a Systematic Approach to Improving Bottleneck Analysis in North Carolina,\" aims to create a comprehensive framework for identifying, analyzing, and mitigating freeway bottlenecks at a system-wide level. It uses dynamic traffic assignment models and vehicle probe data to prioritize bottleneck mitigation projects, improve traffic flow, and assist decision-makers in allocating transportation resources effectively.",
+        "KeyAreas": [
             "Bottleneck Identification and Ranking",
             "Mitigation Strategies",
             "Dynamic Traffic Assignment",
             "Performance Measures and Framework"
         ],
-        "Link":"https:\/\/connect.ncdot.gov\/projects\/research\/RNAProjDocs\/2016-10%20Final%20Report.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/connect.ncdot.gov\/projects\/research\/RNAProjDocs\/2016-10%20Final%20Report.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Congestion Pricing",
-        "State":"Washington, D.C.",
-        "Latitude":38.9587718277,
-        "Longitude":-76.9675080934,
-        "Year":2006,
-        "Category":[
+        "Strategy": "Congestion Pricing",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9587718277,
+        "Longitude": -76.9675080934,
+        "Year": 2006,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Congestion\nPricing: A Primer",
-        "Details":"This report, Congestion Pricing: A Primer, published by the Federal Highway Administration, explores congestion pricing as a strategy to manage traffic flow, reduce congestion, and optimize roadway efficiency. It outlines the concept, benefits, technological approaches, and real-world examples, aiming to provide a foundational understanding for implementing congestion pricing initiatives effectively.",
-        "KeyAreas":[
+        "Report": "Congestion\nPricing: A Primer",
+        "Details": "This report, Congestion Pricing: A Primer, published by the Federal Highway Administration, explores congestion pricing as a strategy to manage traffic flow, reduce congestion, and optimize roadway efficiency. It outlines the concept, benefits, technological approaches, and real-world examples, aiming to provide a foundational understanding for implementing congestion pricing initiatives effectively.",
+        "KeyAreas": [
             "Variably Priced Lane",
             "Variable Tolls on Entire Roadways",
             "Cordon Pricing",
             "Area-wide Pricing"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/publications\/congestionpricing\/congestionpricing.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ops.fhwa.dot.gov\/publications\/congestionpricing\/congestionpricing.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Congestion Pricing",
-        "State":"Washington, D.C.",
-        "Latitude":38.9099504412,
-        "Longitude":-76.9433825833,
-        "Year":2008,
-        "Category":[
+        "Strategy": "Congestion Pricing",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9099504412,
+        "Longitude": -76.9433825833,
+        "Year": 2008,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Congestion Pricing\nA Primer: Overview",
-        "Details":"The report, \"Congestion Pricing: A Primer,\" by the Federal Highway Administration, provides an overview of congestion pricing as a strategy to manage traffic demand, reduce congestion, and improve transportation system efficiency. It aims to introduce decision-makers and transportation professionals to the concept, its benefits, implementation strategies, and real-world examples from the U.S. and abroad.",
-        "KeyAreas":[
+        "Report": "Congestion Pricing\nA Primer: Overview",
+        "Details": "The report, \"Congestion Pricing: A Primer,\" by the Federal Highway Administration, provides an overview of congestion pricing as a strategy to manage traffic demand, reduce congestion, and improve transportation system efficiency. It aims to introduce decision-makers and transportation professionals to the concept, its benefits, implementation strategies, and real-world examples from the U.S. and abroad.",
+        "KeyAreas": [
             "Variably Priced Lanes",
             "Variable Tolls on Roadways",
             "Zone-Based or Cordon Pricing",
-            "Area-Wide or System-Wide Pricing",
-            ""
+            "Area-Wide or System-Wide Pricing"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop08039\/fhwahop08039.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop08039\/fhwahop08039.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Congestion Pricing",
-        "State":"Washington, D.C.",
-        "Latitude":38.9045570074,
-        "Longitude":-77.0610216305,
-        "Year":2009,
-        "Category":[
+        "Strategy": "Congestion Pricing",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9045570074,
+        "Longitude": -77.0610216305,
+        "Year": 2009,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Congestion Pricing Basics",
-        "Details":"\nThis report discusses the concept and implementation of congestion pricing as a tool to manage traffic demand, improve travel time reliability, and generate revenue for transportation projects. It explores the economic, technological, and policy implications of congestion pricing and provides an overview of its applications and impacts in the United States and abroad.",
-        "KeyAreas":[
+        "Report": "Congestion Pricing Basics",
+        "Details": "\nThis report discusses the concept and implementation of congestion pricing as a tool to manage traffic demand, improve travel time reliability, and generate revenue for transportation projects. It explores the economic, technological, and policy implications of congestion pricing and provides an overview of its applications and impacts in the United States and abroad.",
+        "KeyAreas": [
             "Congestion Pricing Basics",
             "Motivations for Congestion Pricing",
             "HOT Lane Conversions"
         ],
-        "Link":"https:\/\/transportation.ky.gov\/Congestion-Toolbox\/Documents\/Congestion%20Pricing%20Basics.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/transportation.ky.gov\/Congestion-Toolbox\/Documents\/Congestion%20Pricing%20Basics.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Congestion Pricing",
-        "State":"Washington, D.C.",
-        "Latitude":38.9353612392,
-        "Longitude":-76.9309100956,
-        "Year":2023,
-        "Category":[
+        "Strategy": "Congestion Pricing",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9353612392,
+        "Longitude": -76.9309100956,
+        "Year": 2023,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Congestion Pricing\nin New York",
-        "Details":"This report, developed by the Traffic Mobility Review Board (TMRB), provides recommendations for implementing New York City's Central Business District Tolling Program. It aims to reduce congestion, improve air quality, and generate $15 billion for public transit enhancements by proposing a toll structure that balances equity, simplicity, and environmental justice.",
-        "KeyAreas":[
+        "Report": "Congestion Pricing\nin New York",
+        "Details": "This report, developed by the Traffic Mobility Review Board (TMRB), provides recommendations for implementing New York City's Central Business District Tolling Program. It aims to reduce congestion, improve air quality, and generate $15 billion for public transit enhancements by proposing a toll structure that balances equity, simplicity, and environmental justice.",
+        "KeyAreas": [
             "Toll Structure and Rates",
             "Traffic Reduction",
             "Revenue Generation and Transit Investment"
         ],
-        "Link":"https:\/\/new.mta.info\/document\/127761 ",
-        "Cluster":1
+        "Link": "https:\/\/new.mta.info\/document\/127761 ",
+        "Cluster": 1
     },
     {
-        "Strategy":"Congestion Pricing",
-        "State":"Washington, D.C.",
-        "Latitude":38.9368789437,
-        "Longitude":-77.0123838703,
-        "Year":2018,
-        "Category":[
+        "Strategy": "Congestion Pricing",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9368789437,
+        "Longitude": -77.0123838703,
+        "Year": 2018,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Variable Pricing",
-        "Details":"\nThis report discusses variable pricing strategies as a tool for managing congestion on roadways by using financial incentives to influence driver behavior. It aims to improve traffic flow, reduce congestion, and enhance transportation network efficiency by implementing time-of-day and dynamic tolling systems, offering insights into best practices and case studies.",
-        "KeyAreas":[
+        "Report": "Variable Pricing",
+        "Details": "\nThis report discusses variable pricing strategies as a tool for managing congestion on roadways by using financial incentives to influence driver behavior. It aims to improve traffic flow, reduce congestion, and enhance transportation network efficiency by implementing time-of-day and dynamic tolling systems, offering insights into best practices and case studies.",
+        "KeyAreas": [
             "Time-of-Day Pricing",
-            "Priced Lanes\/Shoulders",
+            "Priced Lanes Shoulders",
             "Dynamic Pricing",
             "Priced Roadways",
             "Implementation Techniques"
         ],
-        "Link":"https:\/\/mobility.tamu.edu\/mip\/strategies-pdfs\/travel-options\/technical-summary\/variable-pricing-4-pg.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/mobility.tamu.edu\/mip\/strategies-pdfs\/travel-options\/technical-summary\/variable-pricing-4-pg.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Congestion Pricing",
-        "State":"Washington, D.C.",
-        "Latitude":38.8751292846,
-        "Longitude":-77.0743828719,
-        "Year":2009,
-        "Category":[
+        "Strategy": "Congestion Pricing",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8751292846,
+        "Longitude": -77.0743828719,
+        "Year": 2009,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Assessing the Full Costs of Congestion on Surface\nTransportation Systems and Reducing Them through\nPricing",
-        "Details":"This report, prepared by HDR for the U.S. Department of Transportation, evaluates the full costs of surface transportation congestion, including travel delays, unreliability, and environmental impacts. It aims to assess these costs from a national perspective and explore congestion pricing as an effective strategy to improve roadway efficiency and enhance social welfare.",
-        "KeyAreas":[
+        "Report": "Assessing the Full Costs of Congestion on Surface\nTransportation Systems and Reducing Them through\nPricing",
+        "Details": "This report, prepared by HDR for the U.S. Department of Transportation, evaluates the full costs of surface transportation congestion, including travel delays, unreliability, and environmental impacts. It aims to assess these costs from a national perspective and explore congestion pricing as an effective strategy to improve roadway efficiency and enhance social welfare.",
+        "KeyAreas": [
             "Costs of Congestion",
             "Congestion Pricing",
             "Economic Impacts"
         ],
-        "Link":"https:\/\/www.transportation.gov\/sites\/dot.gov\/files\/docs\/Costs%20of%20Surface%20Transportation%20Congestion.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/www.transportation.gov\/sites\/dot.gov\/files\/docs\/Costs%20of%20Surface%20Transportation%20Congestion.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Emergency Transportation Operations",
-        "State":"AL",
-        "Latitude":32.4638397799,
-        "Longitude":-86.2772439617,
-        "Year":2023,
-        "Category":[
+        "Strategy": "Emergency Transportation Operations",
+        "State": "AL",
+        "Latitude": 32.4638397799,
+        "Longitude": -86.2772439617,
+        "Year": 2023,
+        "Category": [
             "Safety",
             "Operations\/Mobility"
         ],
-        "Report":"Emergency Transportation Operations",
-        "Details":"This report outlines the Emergency Transportation Operations (ETO) framework under ALDOT's Statewide TSMO Master Plan, focusing on preparedness, response, and recovery strategies for non-recurring events like natural disasters and emergencies. It aims to enhance inter-agency coordination, optimize evacuation planning, and leverage innovative technologies to ensure safety, mobility, and effective incident management.",
-        "KeyAreas":[
+        "Report": "Emergency Transportation Operations",
+        "Details": "This report outlines the Emergency Transportation Operations (ETO) framework under ALDOT's Statewide TSMO Master Plan, focusing on preparedness, response, and recovery strategies for non-recurring events like natural disasters and emergencies. It aims to enhance inter-agency coordination, optimize evacuation planning, and leverage innovative technologies to ensure safety, mobility, and effective incident management.",
+        "KeyAreas": [
             "Preparedness for Emergency Events",
             "Traffic Signal Management",
             "Transportation Management Center",
             "Traffic Incident Management"
         ],
-        "Link":"https:\/\/tetcoalition.org\/wp-content\/uploads\/2020\/11\/06_ETO_032020.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/tetcoalition.org\/wp-content\/uploads\/2020\/11\/06_ETO_032020.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Emergency Transportation Operations",
-        "State":"Washington, D.C.",
-        "Latitude":38.7938459165,
-        "Longitude":-77.0510426201,
-        "Year":2006,
-        "Category":[
+        "Strategy": "Emergency Transportation Operations",
+        "State": "Washington, D.C.",
+        "Latitude": 38.7938459165,
+        "Longitude": -77.0510426201,
+        "Year": 2006,
+        "Category": [
             "Safety"
         ],
-        "Report":"Best Practices in\nEmergency Transportation Operations\nPreparedness and Response",
-        "Details":"This report, titled \"Best Practices in Emergency Transportation Operations Preparedness and Response,\" consolidates insights from workshops conducted across 30 U.S. regions between 2002 and 2005. It aims to enhance emergency preparedness, improve interagency coordination, and provide actionable strategies for effective transportation operations during emergencies, focusing on preparedness, response, and recovery phases.",
-        "KeyAreas":[
+        "Report": "Best Practices in\nEmergency Transportation Operations\nPreparedness and Response",
+        "Details": "This report, titled \"Best Practices in Emergency Transportation Operations Preparedness and Response,\" consolidates insights from workshops conducted across 30 U.S. regions between 2002 and 2005. It aims to enhance emergency preparedness, improve interagency coordination, and provide actionable strategies for effective transportation operations during emergencies, focusing on preparedness, response, and recovery phases.",
+        "KeyAreas": [
             "Interagency Coordination and Communication",
             "Emergency Operations",
             "Equipment Management",
             "Mutual Aid"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/publications\/etopr\/best_practices\/etopr_best_practices.pdf ",
-        "Cluster":0
+        "Link": "https:\/\/ops.fhwa.dot.gov\/publications\/etopr\/best_practices\/etopr_best_practices.pdf ",
+        "Cluster": 0
     },
     {
-        "Strategy":"Emergency Transportation Operations",
-        "State":"Washington, D.C.",
-        "Latitude":38.7895326295,
-        "Longitude":-77.0133333189,
-        "Year":2007,
-        "Category":[
+        "Strategy": "Emergency Transportation Operations",
+        "State": "Washington, D.C.",
+        "Latitude": 38.7895326295,
+        "Longitude": -77.0133333189,
+        "Year": 2007,
+        "Category": [
             "Safety",
             "Operations\/Mobility"
         ],
-        "Report":"Common Issues in\nEmergency Transportation Operations\nPreparedness and Response",
-        "Details":"This report, titled \"Common Issues in Emergency \nTransportation Operations Preparedness and Response,\" consolidates findings from 30 workshops conducted by the FHWA and Booz Allen Hamilton between 2002 and 2005. It aims to identify and address critical issues in emergency transportation operations, focusing on interagency coordination, communication, evacuation planning, and the integration of Intelligent Transportation Systems (ITS), to enhance preparedness, response, and recovery during emergencies.",
-        "KeyAreas":[
+        "Report": "Common Issues in\nEmergency Transportation Operations\nPreparedness and Response",
+        "Details": "This report, titled \"Common Issues in Emergency \nTransportation Operations Preparedness and Response,\" consolidates findings from 30 workshops conducted by the FHWA and Booz Allen Hamilton between 2002 and 2005. It aims to identify and address critical issues in emergency transportation operations, focusing on interagency coordination, communication, evacuation planning, and the integration of Intelligent Transportation Systems (ITS), to enhance preparedness, response, and recovery during emergencies.",
+        "KeyAreas": [
             "Interagency Coordination and Communication",
             "Emergency Operations",
             "Intelligent Transportation Systems"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/publications\/etopr\/common_issues\/etopr_common_issues.pdf ",
-        "Cluster":2
+        "Link": "https:\/\/ops.fhwa.dot.gov\/publications\/etopr\/common_issues\/etopr_common_issues.pdf ",
+        "Cluster": 2
     },
     {
-        "Strategy":"Emergency Transportation Operations",
-        "State":"Washington, D.C.",
-        "Latitude":38.9709332629,
-        "Longitude":-76.9332764899,
-        "Year":2019,
-        "Category":[
+        "Strategy": "Emergency Transportation Operations",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9709332629,
+        "Longitude": -76.9332764899,
+        "Year": 2019,
+        "Category": [
             "Safety and Emerging Technology"
         ],
-        "Report":"Emergency Transportation Operations\nA Major ITS Initiative",
-        "Details":"This report focuses on the Emergency Transportation Operations initiative under the US DOT's ITS program. It aims to enhance preparedness and response to major incidents like natural disasters and hazardous material accidents through advanced ITS technologies, improving real-time management, resource allocation, and traveler information for safer and more efficient operations\u200b",
-        "KeyAreas":[
+        "Report": "Emergency Transportation Operations\nA Major ITS Initiative",
+        "Details": "This report focuses on the Emergency Transportation Operations initiative under the US DOT's ITS program. It aims to enhance preparedness and response to major incidents like natural disasters and hazardous material accidents through advanced ITS technologies, improving real-time management, resource allocation, and traveler information for safer and more efficient operations\u200b",
+        "KeyAreas": [
             "Improving Incident Response and Recovery",
             "Effective Traveler Information",
             "Incident Planning and Management",
             "Rapid Deployment of ITS"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/37566 ",
-        "Cluster":3
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/37566 ",
+        "Cluster": 3
     },
     {
-        "Strategy":"Emergency Transportation Operations",
-        "State":"TX",
-        "Latitude":30.4942288982,
-        "Longitude":-97.7656769183,
-        "Year":2023,
-        "Category":[
+        "Strategy": "Emergency Transportation Operations",
+        "State": "TX",
+        "Latitude": 30.4942288982,
+        "Longitude": -97.7656769183,
+        "Year": 2023,
+        "Category": [
             "Safety"
         ],
-        "Report":"Texas department\nOf transportation\n2023-2024 educational series\nEmergency operations",
-        "Details":"This report, part of TxDOT's 2023-2024 Educational Series, outlines the Texas Department of Transportation's emergency operations strategies and responsibilities. It aims to enhance public safety by detailing TxDOT's roles in disaster preparedness, response, and recovery, including traffic management, debris removal, and interagency coordination during emergencies like hurricanes, wildfires, and severe weather.",
-        "KeyAreas":[
+        "Report": "Texas department\nOf transportation\n2023-2024 educational series\nEmergency operations",
+        "Details": "This report, part of TxDOT's 2023-2024 Educational Series, outlines the Texas Department of Transportation's emergency operations strategies and responsibilities. It aims to enhance public safety by detailing TxDOT's roles in disaster preparedness, response, and recovery, including traffic management, debris removal, and interagency coordination during emergencies like hurricanes, wildfires, and severe weather.",
+        "KeyAreas": [
             "Emergency Preparedness and Response",
             "Evacuation and Traffic Management",
-            "Disaster Recovery and Mitigation",
-            ""
+            "Disaster Recovery and Mitigation"
         ],
-        "Link":"https:\/\/ftp.dot.state.tx.us\/pub\/txdot-info\/sla\/education_series\/emergency-ops.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ftp.dot.state.tx.us\/pub\/txdot-info\/sla\/education_series\/emergency-ops.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Freeway management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8118319671,
-        "Longitude":-76.9525167358,
-        "Year":2003,
-        "Category":[
+        "Strategy": "Freeway management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8118319671,
+        "Longitude": -76.9525167358,
+        "Year": 2003,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Freeway management and Operations",
-        "Details":"The \"Freeway Management and Operations Handbook\" serves as an introductory guide for transportation professionals, offering an overview of institutional and technical aspects related to freeway planning, design, operation, and management. It aims to enhance mobility, reduce congestion, improve safety, and incorporate Intelligent Transportation Systems (ITS) to optimize freeway performance and support emergency operations.",
-        "KeyAreas":[
+        "Report": "Freeway management and Operations",
+        "Details": "The \"Freeway Management and Operations Handbook\" serves as an introductory guide for transportation professionals, offering an overview of institutional and technical aspects related to freeway planning, design, operation, and management. It aims to enhance mobility, reduce congestion, improve safety, and incorporate Intelligent Transportation Systems (ITS) to optimize freeway performance and support emergency operations.",
+        "KeyAreas": [
             "Freeway Management Programs",
             "Performance Monitoring and Evaluation",
             "Traffic Incident Management",
             "Ramp Management and Control",
             "Managed Lanes"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/freewaymgmt\/publications\/frwy_mgmt_handbook\/fmoh_complete_all.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ops.fhwa.dot.gov\/freewaymgmt\/publications\/frwy_mgmt_handbook\/fmoh_complete_all.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Freeway management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8147793279,
-        "Longitude":-77.0753739672,
-        "Year":1992,
-        "Category":[
+        "Strategy": "Freeway management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8147793279,
+        "Longitude": -77.0753739672,
+        "Year": 1992,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Freeway Corridor Management",
-        "Details":"This report, \"Freeway Corridor Management,\" provides a comprehensive overview of strategies and practices for optimizing traffic operations and managing congestion within urban freeway corridors. It aims to guide agencies in implementing coordinated management systems, integrating various components like surveillance, traffic control, incident management, and public information to enhance mobility, safety, and efficiency.",
-        "KeyAreas":[
+        "Report": "Freeway Corridor Management",
+        "Details": "This report, \"Freeway Corridor Management,\" provides a comprehensive overview of strategies and practices for optimizing traffic operations and managing congestion within urban freeway corridors. It aims to guide agencies in implementing coordinated management systems, integrating various components like surveillance, traffic control, incident management, and public information to enhance mobility, safety, and efficiency.",
+        "KeyAreas": [
             "Freeway Surveillance and Control",
             "Corridor Street Surveillance and Control",
             "High-Occupancy Vehicle (HOV) Facilities and Incentives",
             "Alternative Route Planning"
         ],
-        "Link":"https:\/\/onlinepubs.trb.org\/Onlinepubs\/nchrp\/nchrp_syn_177.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/onlinepubs.trb.org\/Onlinepubs\/nchrp\/nchrp_syn_177.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Freeway management",
-        "State":"Washington, D.C.",
-        "Latitude":38.7666347443,
-        "Longitude":-77.0326794133,
-        "Year":2003,
-        "Category":[
+        "Strategy": "Freeway management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.7666347443,
+        "Longitude": -77.0326794133,
+        "Year": 2003,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Highway Traffic Operations\nAnd Freeway Management\nState-Of-The-Practice",
-        "Details":"This report, \"Highway Traffic Operations and Freeway Management: State-of-the-Practice\", provides a comprehensive overview of current practices in freeway management and operations. It aims to identify gaps between state-of-the-practice and state-of-the-art strategies, offering recommendations to enhance traffic flow, safety, and system efficiency through improved technologies and management approaches.",
-        "KeyAreas":[
+        "Report": "Highway Traffic Operations\nAnd Freeway Management\nState-Of-The-Practice",
+        "Details": "This report, \"Highway Traffic Operations and Freeway Management: State-of-the-Practice\", provides a comprehensive overview of current practices in freeway management and operations. It aims to identify gaps between state-of-the-practice and state-of-the-art strategies, offering recommendations to enhance traffic flow, safety, and system efficiency through improved technologies and management approaches.",
+        "KeyAreas": [
             "Freeway Management Systems",
             "Traffic Incident Management",
             "Traveler Information Systems",
             "Corridor Traffic Management",
             "Electronic Toll Collection"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/freewaymgmt\/publications\/documents\/freewaymanagementsopv.7.2.1.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ops.fhwa.dot.gov\/freewaymgmt\/publications\/documents\/freewaymanagementsopv.7.2.1.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Freeway management",
-        "State":"Washington, D.C.",
-        "Latitude":38.7659207638,
-        "Longitude":-76.9890798547,
-        "Year":2008,
-        "Category":[
+        "Strategy": "Freeway management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.7659207638,
+        "Longitude": -76.9890798547,
+        "Year": 2008,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Operations-Oriented Performance Measures for \nFreeway Management Systems",
-        "Details":"This report, titled \"Operations-Oriented Performance \nMeasures for Freeway Management Systems\", explores the development and application of real-time performance measures to enhance freeway management. It aims to evaluate and implement measures such as travel time and congestion extent to support traffic monitoring, incident management, and operational decision-making in Transportation Management Centers (TMCs).",
-        "KeyAreas":[
+        "Report": "Operations-Oriented Performance Measures for \nFreeway Management Systems",
+        "Details": "This report, titled \"Operations-Oriented Performance \nMeasures for Freeway Management Systems\", explores the development and application of real-time performance measures to enhance freeway management. It aims to evaluate and implement measures such as travel time and congestion extent to support traffic monitoring, incident management, and operational decision-making in Transportation Management Centers (TMCs).",
+        "KeyAreas": [
             "Real-Time Performance Measurement",
-            "System Architecture \nand Prototype Development",
+            "System Architecture and Prototype Development",
             "Operator Interfaces",
             "Incident Management"
         ],
-        "Link":"https:\/\/static.tti.tamu.edu\/tti.tamu.edu\/documents\/0-5292-2.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/static.tti.tamu.edu\/tti.tamu.edu\/documents\/0-5292-2.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Freeway management",
-        "State":"Washington, D.C.",
-        "Latitude":38.9510200968,
-        "Longitude":-76.8919230595,
-        "Year":2018,
-        "Category":[
+        "Strategy": "Freeway management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9510200968,
+        "Longitude": -76.8919230595,
+        "Year": 2018,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Freeway Management for Optimal Reliability",
-        "Details":"This report, titled \"Freeway Management for Optimal \nReliability,\" explores strategies to enhance freeway travel time reliability through a multi-institutional effort. It develops analytical and simulation-based approaches to assess and optimize Active Traffic Management (ATM) strategies, evaluates their safety benefits, and proposes innovative methods like connected vehicle headway control to improve mobility and reliability",
-        "KeyAreas":[
+        "Report": "Freeway Management for Optimal Reliability",
+        "Details": "This report, titled \"Freeway Management for Optimal \nReliability,\" explores strategies to enhance freeway travel time reliability through a multi-institutional effort. It develops analytical and simulation-based approaches to assess and optimize Active Traffic Management (ATM) strategies, evaluates their safety benefits, and proposes innovative methods like connected vehicle headway control to improve mobility and reliability",
+        "KeyAreas": [
             "Adaptive ramp metering",
             "Integrated ramp metering and variable speed limit control",
             "Hard shoulder running",
@@ -660,202 +657,202 @@
             "Optimized traffic diversions",
             "Incident response and management"
         ],
-        "Link":"https:\/\/www.eng.ufl.edu\/stride\/wp-content\/uploads\/sites\/153\/2021\/03\/STRIDE-Project-I-Final-Report-updated.pdf ",
-        "Cluster":4
+        "Link": "https:\/\/www.eng.ufl.edu\/stride\/wp-content\/uploads\/sites\/153\/2021\/03\/STRIDE-Project-I-Final-Report-updated.pdf ",
+        "Cluster": 4
     },
     {
-        "Strategy":"Freight Network Technology  and Operations",
-        "State":"Washington, D.C.",
-        "Latitude":38.7387885393,
-        "Longitude":-77.0338323686,
-        "Year":2021,
-        "Category":[
+        "Strategy": "Freight Network Technology  and Operations",
+        "State": "Washington, D.C.",
+        "Latitude": 38.7387885393,
+        "Longitude": -77.0338323686,
+        "Year": 2021,
+        "Category": [
             "Emerging Technology"
         ],
-        "Report":"Assessment of Innovative and Automated Freight and Automated Freight Strategies Strategies and Technologiesnd Technologies\u2014Phase I Phase II Final ReportFinal Report",
-        "Details":"This report, titled \"Assessment of Innovative and \nAutomated Freight Strategies and Technologies\u2014Phase II,\" evaluates nine freight strategies and technologies to enhance efficiency, safety, and sustainability in Texas' freight systems. Conducted by the Texas A&M Transportation Institute in cooperation with TxDOT and FHWA, it aims to inform strategic investments and future implementations using the STREAM evaluation process.",
-        "KeyAreas":[
-            "Automated\/Zero Emission Freight Systems",
+        "Report": "Assessment of Innovative and Automated Freight and Automated Freight Strategies Strategies and Technologiesnd Technologies\u2014Phase I Phase II Final ReportFinal Report",
+        "Details": "This report, titled \"Assessment of Innovative and \nAutomated Freight Strategies and Technologies\u2014Phase II,\" evaluates nine freight strategies and technologies to enhance efficiency, safety, and sustainability in Texas' freight systems. Conducted by the Texas A&M Transportation Institute in cooperation with TxDOT and FHWA, it aims to inform strategic investments and future implementations using the STREAM evaluation process.",
+        "KeyAreas": [
+            "Automated Zero Emission Freight Systems",
             "Alternative Fueled Freight Vehicles",
             "Freight Rail Public-Private Partnerships (P3s)",
             "Truck-Shipper Matching Systems",
             "Port Intelligent Transportation Systems"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/57064\/dot_57064_DS1.pdf ",
-        "Cluster":5
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/57064\/dot_57064_DS1.pdf ",
+        "Cluster": 5
     },
     {
-        "Strategy":"Freight Network Technology  and Operations",
-        "State":"TX",
-        "Latitude":30.4691298981,
-        "Longitude":-97.7795243605,
-        "Year":2020,
-        "Category":[
+        "Strategy": "Freight Network Technology  and Operations",
+        "State": "TX",
+        "Latitude": 30.4691298981,
+        "Longitude": -97.7795243605,
+        "Year": 2020,
+        "Category": [
             "Emerging Technology",
             "Safety",
             "Big Data"
         ],
-        "Report":"Texas Freight Network Technology and Operations Plan",
-        "Details":"The \"Freight Network Technology and Operations Plan\" \nis a strategic document developed by the Texas Department of Transportation (TxDOT) to enhance the safety, efficiency, and mobility of the Texas Multimodal Freight Network (TMFN). It outlines technology-driven solutions and operational strategies to address current and future freight challenges, leveraging emerging technologies, data integration, and stakeholder engagement to support economic growth and improve freight transportation systems",
-        "KeyAreas":[
+        "Report": "Texas Freight Network Technology and Operations Plan",
+        "Details": "The \"Freight Network Technology and Operations Plan\" \nis a strategic document developed by the Texas Department of Transportation (TxDOT) to enhance the safety, efficiency, and mobility of the Texas Multimodal Freight Network (TMFN). It outlines technology-driven solutions and operational strategies to address current and future freight challenges, leveraging emerging technologies, data integration, and stakeholder engagement to support economic growth and improve freight transportation systems",
+        "KeyAreas": [
             "Safety Warning Detection Systems",
-            "Collision avoidance and \nemergency management technologies",
+            "Collision avoidance and emergency management technologies",
             "Advanced Traveler Information Systems",
             "Integration of multiple data sources for enhanced decision-making"
         ],
-        "Link":"https:\/\/ftp.txdot.gov\/pub\/txdot\/tpp\/freight-planning\/fntop\/freight-network-technology-and-operations-plan.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ftp.txdot.gov\/pub\/txdot\/tpp\/freight-planning\/fntop\/freight-network-technology-and-operations-plan.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Integrated Corridor Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8910364568,
-        "Longitude":-76.9148462307,
-        "Year":2008,
-        "Category":[
+        "Strategy": "Integrated Corridor Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8910364568,
+        "Longitude": -76.9148462307,
+        "Year": 2008,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Integrated Corridor Management Analysis,\nModeling and Simulation (AMS) Methodology ",
-        "Details":"This report, titled \"Integrated Corridor Management \nAnalysis, Modeling, and Simulation (AMS) Methodology,\" outlines a framework for evaluating and improving transportation corridor operations using Integrated Corridor Management (ICM) strategies. It aims to refine analysis, modeling, and simulation tools to assess and optimize mobility, safety, and operational efficiency across multimodal transportation networks",
-        "KeyAreas":[
+        "Report": "Integrated Corridor Management Analysis,\nModeling and Simulation (AMS) Methodology ",
+        "Details": "This report, titled \"Integrated Corridor Management \nAnalysis, Modeling, and Simulation (AMS) Methodology,\" outlines a framework for evaluating and improving transportation corridor operations using Integrated Corridor Management (ICM) strategies. It aims to refine analysis, modeling, and simulation tools to assess and optimize mobility, safety, and operational efficiency across multimodal transportation networks",
+        "KeyAreas": [
             "Mobility",
             "Measures the predictability of travel times",
-            "Information sharing\/distribution"
+            "Information sharing distribution"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/3689\/dot_3689_DS1.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/3689\/dot_3689_DS1.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Integrated Corridor Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.9716635137,
-        "Longitude":-76.9999723074,
-        "Year":2018,
-        "Category":[
+        "Strategy": "Integrated Corridor Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9716635137,
+        "Longitude": -76.9999723074,
+        "Year": 2018,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Integrated corridor Management (ICM) Demonstration sites",
-        "Details":"This report details the U.S. Department of Transportation's\nIntegrated Corridor Management (ICM) Initiative, highlighting demonstration projects on US-75 in Dallas, TX, and I-15 in San Diego, CA. It aims to improve corridor performance through real-time decision support systems, multimodal coordination, and proactive traffic management strategies to optimize mobility and reduce congestion.",
-        "KeyAreas":[
+        "Report": "Integrated corridor Management (ICM) Demonstration sites",
+        "Details": "This report details the U.S. Department of Transportation's\nIntegrated Corridor Management (ICM) Initiative, highlighting demonstration projects on US-75 in Dallas, TX, and I-15 in San Diego, CA. It aims to improve corridor performance through real-time decision support systems, multimodal coordination, and proactive traffic management strategies to optimize mobility and reduce congestion.",
+        "KeyAreas": [
             "Integrated Corridor Management (ICM) Framework",
             "eployment of Decision Support Systems",
             "Traffic Management Strategies"
         ],
-        "Link":"https:\/\/www.its.dot.gov\/factsheets\/pdf\/icm_demosites_v7.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/www.its.dot.gov\/factsheets\/pdf\/icm_demosites_v7.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Integrated Corridor Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8466115793,
-        "Longitude":-77.0682932141,
-        "Year":2019,
-        "Category":[
+        "Strategy": "Integrated Corridor Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8466115793,
+        "Longitude": -77.0682932141,
+        "Year": 2019,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Integrated Corridor Management (ICM) Program\nMajor Achievements, Key Findings, and Outlook",
-        "Details":"This report provides an overview of the Integrated \nCorridor Management (ICM) Program by the U.S. Department of Transportation, highlighting its key achievements, findings, and future outlook. It aims to demonstrate the benefits of integrated, multimodal corridor management strategies, fostering collaboration among transportation agencies to improve mobility, reliability, and operational efficiency along major travel corridors.",
-        "KeyAreas":[
+        "Report": "Integrated Corridor Management (ICM) Program\nMajor Achievements, Key Findings, and Outlook",
+        "Details": "This report provides an overview of the Integrated \nCorridor Management (ICM) Program by the U.S. Department of Transportation, highlighting its key achievements, findings, and future outlook. It aims to demonstrate the benefits of integrated, multimodal corridor management strategies, fostering collaboration among transportation agencies to improve mobility, reliability, and operational efficiency along major travel corridors.",
+        "KeyAreas": [
             "Demand Management",
             "Load Balancing",
             "Coordinated",
             "proactive responses to unplanned incidents or events",
             "Capital Improvements"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop19016\/fhwahop19016.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop19016\/fhwahop19016.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Integrated Corridor Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8716917245,
-        "Longitude":-77.1101007481,
-        "Year":2015,
-        "Category":[
+        "Strategy": "Integrated Corridor Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8716917245,
+        "Longitude": -77.1101007481,
+        "Year": 2015,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Integrated Corridor Management:\nImplementation Guide and Lessons Learned",
-        "Details":"The report, Integrated Corridor Management: Implementation Guide and Lessons Learned, provides a comprehensive framework for adopting Integrated \nCorridor Management (ICM) strategies to address congestion and improve travel time reliability in urban corridors. It offers practical guidance, lessons learned, and examples from U.S. Department of Transportation's ICM Pioneer Sites to assist agencies in planning, deploying, and maintaining effective multimodal transportation systems.",
-        "KeyAreas":[
+        "Report": "Integrated Corridor Management:\nImplementation Guide and Lessons Learned",
+        "Details": "The report, Integrated Corridor Management: Implementation Guide and Lessons Learned, provides a comprehensive framework for adopting Integrated \nCorridor Management (ICM) strategies to address congestion and improve travel time reliability in urban corridors. It offers practical guidance, lessons learned, and examples from U.S. Department of Transportation's ICM Pioneer Sites to assist agencies in planning, deploying, and maintaining effective multimodal transportation systems.",
+        "KeyAreas": [
             "Demand Management",
             "Load Balancing",
             "Event Response",
             "Capital Improvement"
         ],
-        "Link":"https:\/\/connected-corridors.berkeley.edu\/sites\/default\/files\/fhwa_implementation_guide_v2.pdf ",
-        "Cluster":1
+        "Link": "https:\/\/connected-corridors.berkeley.edu\/sites\/default\/files\/fhwa_implementation_guide_v2.pdf ",
+        "Cluster": 1
     },
     {
-        "Strategy":"Integrated Corridor Management",
-        "State":"NYC",
-        "Latitude":41.0508782643,
-        "Longitude":-74.012432752,
-        "Year":2019,
-        "Category":[
+        "Strategy": "Integrated Corridor Management",
+        "State": "NYC",
+        "Latitude": 41.0508782643,
+        "Longitude": -74.012432752,
+        "Year": 2019,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Integrated Corridor Management (ICM) for the \nLower Hudson Transit Link (LHTL) corridor Program",
-        "Details":"This report focuses on implementing Integrated \nCorridor Management (ICM) for the Lower Hudson Transit Link (LHTL) corridor, aiming to optimize traffic flow, improve travel reliability, and enhance safety through strategies like ramp metering, transit signal priority, and real-time travel information. It outlines the benefits of these measures for buses, automobiles, and trucks, contributing to more efficient and safer transportation networks.",
-        "KeyAreas":[
+        "Report": "Integrated Corridor Management (ICM) for the \nLower Hudson Transit Link (LHTL) corridor Program",
+        "Details": "This report focuses on implementing Integrated \nCorridor Management (ICM) for the Lower Hudson Transit Link (LHTL) corridor, aiming to optimize traffic flow, improve travel reliability, and enhance safety through strategies like ramp metering, transit signal priority, and real-time travel information. It outlines the benefits of these measures for buses, automobiles, and trucks, contributing to more efficient and safer transportation networks.",
+        "KeyAreas": [
             "Ramp Metering",
             "Transit Signal Priority",
             "Real-Time Travel Information",
             "Arterial Roadway Enhancements"
         ],
-        "Link":"https:\/\/www.dot.ny.gov\/portal\/page\/portal\/lhtl\/repository\/LHTL_Spring_2020_Newsletter_042420.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/www.dot.ny.gov\/portal\/page\/portal\/lhtl\/repository\/LHTL_Spring_2020_Newsletter_042420.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Managed Lanes",
-        "State":"Washington, D.C.",
-        "Latitude":38.8276681663,
-        "Longitude":-77.1119956849,
-        "Year":2001,
-        "Category":[
+        "Strategy": "Managed Lanes",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8276681663,
+        "Longitude": -77.1119956849,
+        "Year": 2001,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Guidance for Planning, Operating, and Designing \nManaged Lane Facilities in Texas",
-        "Details":"This report, titled \"Guidance for Planning, Operating, \nand Designing Managed Lane Facilities in Texas,\" provides a comprehensive framework for the planning, design, operation, and evaluation of managed lanes to enhance traffic flow and mobility. Sponsored by TxDOT and FHWA, it aims to offer preliminary geometric and operational guidelines for managed lane projects, drawing on best practices and experiences from Texas and across the U.S.",
-        "KeyAreas":[
+        "Report": "Guidance for Planning, Operating, and Designing \nManaged Lane Facilities in Texas",
+        "Details": "This report, titled \"Guidance for Planning, Operating, \nand Designing Managed Lane Facilities in Texas,\" provides a comprehensive framework for the planning, design, operation, and evaluation of managed lanes to enhance traffic flow and mobility. Sponsored by TxDOT and FHWA, it aims to offer preliminary geometric and operational guidelines for managed lane projects, drawing on best practices and experiences from Texas and across the U.S.",
+        "KeyAreas": [
             "Planning Managed Lane Facilities",
             "Design of Managed Lane Facilities",
             "Operations of Managed Lane Facilities",
             "Evaluation of Managed Lane Facilities"
         ],
-        "Link":"https:\/\/rosap.ntl.bts.gov\/view\/dot\/41764\/dot_41764_DS1.pdf ",
-        "Cluster":2
+        "Link": "https:\/\/rosap.ntl.bts.gov\/view\/dot\/41764\/dot_41764_DS1.pdf ",
+        "Cluster": 2
     },
     {
-        "Strategy":"Managed Lanes",
-        "State":"Washington, D.C.",
-        "Latitude":38.9235864337,
-        "Longitude":-77.0896793003,
-        "Year":2008,
-        "Category":[
+        "Strategy": "Managed Lanes",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9235864337,
+        "Longitude": -77.0896793003,
+        "Year": 2008,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Managed Lanes Primer ",
-        "Details":"The Managed Lanes Primer provides an overview of \nmanaged lanes as a mobility strategy to address growing traffic congestion. It aims to guide community leaders, policymakers, and transportation managers in understanding managed lanes, their operational strategies, and how they can enhance traffic flow and provide travel options in congested corridors.",
-        "KeyAreas":[
+        "Report": "Managed Lanes Primer ",
+        "Details": "The Managed Lanes Primer provides an overview of \nmanaged lanes as a mobility strategy to address growing traffic congestion. It aims to guide community leaders, policymakers, and transportation managers in understanding managed lanes, their operational strategies, and how they can enhance traffic flow and provide travel options in congested corridors.",
+        "KeyAreas": [
             "Lane Management Strategies",
             "Active Management",
             "Best Practices"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/publications\/managelanes_primer\/managed_lanes_primer.pdf ",
-        "Cluster":5
+        "Link": "https:\/\/ops.fhwa.dot.gov\/publications\/managelanes_primer\/managed_lanes_primer.pdf ",
+        "Cluster": 5
     },
     {
-        "Strategy":"Managed Lanes",
-        "State":"TX",
-        "Latitude":30.5237817875,
-        "Longitude":-97.7630377391,
-        "Year":2007,
-        "Category":[
+        "Strategy": "Managed Lanes",
+        "State": "TX",
+        "Latitude": 30.5237817875,
+        "Longitude": -97.7630377391,
+        "Year": 2007,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Managed Lanes: A New Concept for Freeway\nTravel",
-        "Details":"The report \"Managed Lanes: A New Concept for Freeway \nTravel\" explores the concept of managed lanes as a strategy to optimize freeway traffic flow. It discusses various lane management strategies, such as time-of-day restrictions, vehicle type restrictions, and variable pricing, aiming to enhance travel efficiency, offer more commuter choices, and address congestion challenges in urban areas.",
-        "KeyAreas":[
+        "Report": "Managed Lanes: A New Concept for Freeway\nTravel",
+        "Details": "The report \"Managed Lanes: A New Concept for Freeway \nTravel\" explores the concept of managed lanes as a strategy to optimize freeway traffic flow. It discusses various lane management strategies, such as time-of-day restrictions, vehicle type restrictions, and variable pricing, aiming to enhance travel efficiency, offer more commuter choices, and address congestion challenges in urban areas.",
+        "KeyAreas": [
             "Lane Management Strategies",
             "Time-of-Day Restrictions",
             "Vehicle Type Restrictions",
@@ -863,42 +860,42 @@
             "Travel Choices",
             "Emergency Flexibility"
         ],
-        "Link":"https:\/\/static.tti.tamu.edu\/tti.tamu.edu\/documents\/4160-6-P2.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/static.tti.tamu.edu\/tti.tamu.edu\/documents\/4160-6-P2.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Managed Lanes",
-        "State":"TX",
-        "Latitude":30.5084552077,
-        "Longitude":-97.7973797253,
-        "Year":2002,
-        "Category":[
+        "Strategy": "Managed Lanes",
+        "State": "TX",
+        "Latitude": 30.5084552077,
+        "Longitude": -97.7973797253,
+        "Year": 2002,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Managed Lanes \u2013 Traffic Modeling",
-        "Details":"This report, titled \"Managed Lanes \u2013 Traffic Modeling,\n\" focuses on evaluating the operational impacts of managed lanes on freeways using the VISSIM simulation tool. Sponsored by TxDOT and FHWA, it aims to analyze design scenarios, optimize traffic flow, and provide recommendations for managed lane access, weaving distances, and traffic management strategies to enhance mobility and efficiency.",
-        "KeyAreas":[
+        "Report": "Managed Lanes \u2013 Traffic Modeling",
+        "Details": "This report, titled \"Managed Lanes \u2013 Traffic Modeling,\n\" focuses on evaluating the operational impacts of managed lanes on freeways using the VISSIM simulation tool. Sponsored by TxDOT and FHWA, it aims to analyze design scenarios, optimize traffic flow, and provide recommendations for managed lane access, weaving distances, and traffic management strategies to enhance mobility and efficiency.",
+        "KeyAreas": [
             "Traffic Modeling Tools",
             "Managed Lane Access Control",
             "Weaving Analysis",
             "Traffic Volume and Composition",
             "Critical Design and Operations Issues"
         ],
-        "Link":"https:\/\/static.tti.tamu.edu\/tti.tamu.edu\/documents\/4160-4.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/static.tti.tamu.edu\/tti.tamu.edu\/documents\/4160-4.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Managed Lanes",
-        "State":"TX",
-        "Latitude":30.5269112072,
-        "Longitude":-97.7310070116,
-        "Year":2019,
-        "Category":[
+        "Strategy": "Managed Lanes",
+        "State": "TX",
+        "Latitude": 30.5269112072,
+        "Longitude": -97.7310070116,
+        "Year": 2019,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Managed Lanes: What They Are and Why We Need Them",
-        "Details":"This report provides an overview of managed lanes, \nexplaining their definitions, key operational strategies, and applications as outlined by the Federal Highway Administration (FHWA). It aims to clarify misconceptions about managed lanes, highlight their purpose in enhancing traffic flow and congestion management, and present various strategies for implementing and managing these lanes effectively.",
-        "KeyAreas":[
+        "Report": "Managed Lanes: What They Are and Why We Need Them",
+        "Details": "This report provides an overview of managed lanes, \nexplaining their definitions, key operational strategies, and applications as outlined by the Federal Highway Administration (FHWA). It aims to clarify misconceptions about managed lanes, highlight their purpose in enhancing traffic flow and congestion management, and present various strategies for implementing and managing these lanes effectively.",
+        "KeyAreas": [
             "Dynamic Pricing",
             "Time-of-Day Pricing",
             "High-Occupancy Vehicle (HOV) Lanes",
@@ -906,66 +903,64 @@
             "Express Lanes",
             "Restricted Lanes"
         ],
-        "Link":"https:\/\/ftp.txdot.gov\/pub\/txdot-info\/managed-lanes\/managed-lanes-what-and-why.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ftp.txdot.gov\/pub\/txdot-info\/managed-lanes\/managed-lanes-what-and-why.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Managed Lanes",
-        "State":"TX",
-        "Latitude":30.5250871945,
-        "Longitude":-97.6992146339,
-        "Year":2005,
-        "Category":[
+        "Strategy": "Managed Lanes",
+        "State": "TX",
+        "Latitude": 30.5250871945,
+        "Longitude": -97.6992146339,
+        "Year": 2005,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Managed Lanes Handbook",
-        "Details":"The Managed Lanes Handbook provides a \ncomprehensive guide for planning, designing, and operating managed lanes to improve freeway efficiency and mobility. Developed by the Texas Transportation Institute for TxDOT and FHWA, it offers practical strategies and resources to support informed decision-making and effective implementation of managed lanes projects.",
-        "KeyAreas":[
+        "Report": "Managed Lanes Handbook",
+        "Details": "The Managed Lanes Handbook provides a \ncomprehensive guide for planning, designing, and operating managed lanes to improve freeway efficiency and mobility. Developed by the Texas Transportation Institute for TxDOT and FHWA, it offers practical strategies and resources to support informed decision-making and effective implementation of managed lanes projects.",
+        "KeyAreas": [
             "High-Occupancy Vehicle (HOV) Lanes",
             "Value-Priced or High-Occupancy Toll (HOT) Lanes",
-            "Exclusive Lanes (e.g.",
-            "bus or truck-only lanes)",
-            "Separation\/Bypass Lanes",
+            "Exclusive Lanes (e.g. bus or truck-only lanes)",
+            "Separation Bypass Lanes",
             "Lane Restrictions"
         ],
-        "Link":"https:\/\/www.ibtta.org\/sites\/default\/files\/Managed%20Lanes%20handbook%20TTI.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/www.ibtta.org\/sites\/default\/files\/Managed%20Lanes%20handbook%20TTI.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Work Zone Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.8621626665,
-        "Longitude":-76.9144218718,
-        "Year":2013,
-        "Category":[
+        "Strategy": "Work Zone Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.8621626665,
+        "Longitude": -76.9144218718,
+        "Year": 2013,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Work Zone Operations Best Practices Guidebook",
-        "Details":"The \"Work Zone Operations Best Practices Guidebook \n(Third Edition)\" is a resource developed by the Federal Highway Administration (FHWA) to provide transportation agencies with a compilation of effective work zone management practices. Its aim is to enhance mobility and safety in work zones by sharing strategies, technologies, and policies successfully employed across various states and localities\u200b",
-        "KeyAreas":[
+        "Report": "Work Zone Operations Best Practices Guidebook",
+        "Details": "The \"Work Zone Operations Best Practices Guidebook \n(Third Edition)\" is a resource developed by the Federal Highway Administration (FHWA) to provide transportation agencies with a compilation of effective work zone management practices. Its aim is to enhance mobility and safety in work zones by sharing strategies, technologies, and policies successfully employed across various states and localities\u200b",
+        "KeyAreas": [
             "Policy and Procedures",
             "Public Relations",
-            "Education",
-            "and Outreach",
+            "Education and Outreach",
             "Modeling and Impact Analysis",
             "Planning and Programming",
             "Project Development and Design"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/wz\/practices\/best\/documents\/bpguidebook.pdf ",
-        "Cluster":3
+        "Link": "https:\/\/ops.fhwa.dot.gov\/wz\/practices\/best\/documents\/bpguidebook.pdf ",
+        "Cluster": 3
     },
     {
-        "Strategy":"Work Zone Management",
-        "State":"Mo",
-        "Latitude":37.4406042437,
-        "Longitude":-93.2881858852,
-        "Year":2021,
-        "Category":[
+        "Strategy": "Work Zone Management",
+        "State": "Mo",
+        "Latitude": 37.4406042437,
+        "Longitude": -93.2881858852,
+        "Year": 2021,
+        "Category": [
             "Safety"
         ],
-        "Report":"Work Zone Management Guidebook",
-        "Details":"The Work Zone Management Guidebook by MoDOT \n(March 2021) provides strategies and tools to enhance safety and minimize traffic disruptions in work zones. It outlines advanced work zone strategies, including smart technologies and operational improvements, aiming to protect workers and motorists while optimizing traffic flow during construction activities.",
-        "KeyAreas":[
+        "Report": "Work Zone Management Guidebook",
+        "Details": "The Work Zone Management Guidebook by MoDOT \n(March 2021) provides strategies and tools to enhance safety and minimize traffic disruptions in work zones. It outlines advanced work zone strategies, including smart technologies and operational improvements, aiming to protect workers and motorists while optimizing traffic flow during construction activities.",
+        "KeyAreas": [
             "Construction Vehicle Warning Systems",
             "Dynamic Merge (Zipper Merge) Systems",
             "Queue Warning Systems",
@@ -973,51 +968,51 @@
             "Temporary Rumble Strips",
             "Temporary Traffic Incident Management (TTIM) Systems"
         ],
-        "Link":"https:\/\/epg.modot.org\/files\/6\/6b\/909_WZM_Guidebook.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/epg.modot.org\/files\/6\/6b\/909_WZM_Guidebook.pdf ",
+        "Cluster": -1
     },
     {
-        "Strategy":"Work Zone Management",
-        "State":"Washington, D.C.",
-        "Latitude":38.9426863668,
-        "Longitude":-77.0519761154,
-        "Year":2020,
-        "Category":[
+        "Strategy": "Work Zone Management",
+        "State": "Washington, D.C.",
+        "Latitude": 38.9426863668,
+        "Longitude": -77.0519761154,
+        "Year": 2020,
+        "Category": [
             "Operations\/Mobility"
         ],
-        "Report":"Work Zone Management Program",
-        "Details":"This report explores the use of the National \nPerformance Management Research Data Set (NPMRDS) is used to assess and manage work zone performance. It aims to provide transportation agencies with tools and methodologies to measure mobility impacts, optimize work zone management strategies, and meet federal requirements for performance monitoring under MAP-21.",
-        "KeyAreas":[
+        "Report": "Work Zone Management Program",
+        "Details": "This report explores the use of the National \nPerformance Management Research Data Set (NPMRDS) is used to assess and manage work zone performance. It aims to provide transportation agencies with tools and methodologies to measure mobility impacts, optimize work zone management strategies, and meet federal requirements for performance monitoring under MAP-21.",
+        "KeyAreas": [
             "Baseline Mobility Benchmarking",
             "Mobility Impact Analysis",
             "Travel Time Reliability Analysis",
             "User Cost Analysis",
             "Alternate Route Assessment"
         ],
-        "Link":"https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop20028\/fhwahop20028.pdf ",
-        "Cluster":4
+        "Link": "https:\/\/ops.fhwa.dot.gov\/publications\/fhwahop20028\/fhwahop20028.pdf ",
+        "Cluster": 4
     },
     {
-        "Strategy":"Work Zone Management",
-        "State":"TX",
-        "Latitude":30.5477738023,
-        "Longitude":-97.777928443,
-        "Year":2018,
-        "Category":[
+        "Strategy": "Work Zone Management",
+        "State": "TX",
+        "Latitude": 30.5477738023,
+        "Longitude": -97.777928443,
+        "Year": 2018,
+        "Category": [
             "Safety",
             "Operations\/Mobility"
         ],
-        "Report":"Smart Work Zone Guidelines\nDesign Guidelines for\nDeployment of Work Zone\nIntelligent Transportation\nSystems (ITS)",
-        "Details":"This report, Smart Work Zone Guidelines by TxDOT, \nprovides recommendations for incorporating Intelligent Transportation Systems (ITS) into work zones to enhance safety, mobility, and efficiency. It outlines design, deployment, and evaluation strategies for Smart Work Zones, offering tools and guidelines to standardize and improve their implementation across projects.",
-        "KeyAreas":[
+        "Report": "Smart Work Zone Guidelines\nDesign Guidelines for\nDeployment of Work Zone\nIntelligent Transportation\nSystems (ITS)",
+        "Details": "This report, Smart Work Zone Guidelines by TxDOT, \nprovides recommendations for incorporating Intelligent Transportation Systems (ITS) into work zones to enhance safety, mobility, and efficiency. It outlines design, deployment, and evaluation strategies for Smart Work Zones, offering tools and guidelines to standardize and improve their implementation across projects.",
+        "KeyAreas": [
             "Temporary Queue Detection Systems",
-            "Temporary Speed \nMonitoring Systems",
+            "Temporary Speed Monitoring Systems",
             "Temporary Construction Equipment Alert Systems",
             "Temporary Travel Time Systems",
             "Temporary Incident Detection and Surveillance Systems",
             "Temporary Over-Height Vehicle Warning Systems"
         ],
-        "Link":"https:\/\/ftp.dot.state.tx.us\/pub\/txdot-info\/trf\/smart-work-zone-guidelines.pdf ",
-        "Cluster":-1
+        "Link": "https:\/\/ftp.dot.state.tx.us\/pub\/txdot-info\/trf\/smart-work-zone-guidelines.pdf ",
+        "Cluster": -1
     }
 ]
