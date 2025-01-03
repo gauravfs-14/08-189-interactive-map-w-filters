@@ -1,16 +1,14 @@
 "use client";
 
 import { useEffect } from "react";
-// import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { LatLngBounds, LatLngExpression, divIcon } from "leaflet";
 import ReactDOMServer from "react-dom/server";
 import "leaflet/dist/leaflet.css";
-import { DataProps } from "@/types/dataProp";
+import { NewDataProps } from "@/types/dataProp";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { useToast } from "@/hooks/use-toast";
-import { RiMapPin2Fill } from "react-icons/ri";
-
+import { FaCircle } from "react-icons/fa";
 
 import dynamic from "next/dynamic";
 
@@ -20,9 +18,8 @@ const TileLayer = dynamic(() => import("react-leaflet").then((mod) => mod.TileLa
 const Marker = dynamic(() => import("react-leaflet").then((mod) => mod.Marker), { ssr: false });
 const Popup = dynamic(() => import("react-leaflet").then((mod) => mod.Popup), { ssr: false });
 
-
 type MapComponentProps = {
-    data: DataProps[];
+    data: NewDataProps[];
 };
 
 export default function MainContent({ data }: MapComponentProps) {
@@ -57,7 +54,7 @@ export default function MainContent({ data }: MapComponentProps) {
                     justifyContent: "center",
                 }}
             >
-                <RiMapPin2Fill size={32} color="#884dee" />
+                <FaCircle size={32} color="#884dee" />
             </div>
         ),
         className: "", // Prevent Leaflet's default styling
@@ -68,9 +65,9 @@ export default function MainContent({ data }: MapComponentProps) {
     // Calculate bounds to fit all markers if data is available
     const bounds = data.length
         ? data.reduce((bounds, location) => {
-            bounds.extend([location.latitude, location.longitude]);
+            bounds.extend([location.Latitude, location.Longitude]);
             return bounds;
-        }, new LatLngBounds([[data[0].latitude, data[0].longitude]]))
+        }, new LatLngBounds([[data[0].Latitude, data[0].Longitude]]))
         : defaultBounds; // Use default bounds when no data
 
     return (
@@ -87,18 +84,18 @@ export default function MainContent({ data }: MapComponentProps) {
                 {data.map((location, index) => (
                     <Marker
                         key={index}
-                        position={[location.latitude, location.longitude] as LatLngExpression}
+                        position={[location.Latitude, location.Longitude] as LatLngExpression}
                         icon={customMarkerIcon}
                     >
                         <Popup>
-                            <h4 className="-mb-4">{location.name}</h4>
-                            <p className="font-bold italic">
-                                {location.author} | {location.year}
-                            </p>
-                            <p className="text-sm font-thin">{location.description}</p>
-                            <Link href={location.link} target="_blank" rel="noopener noreferrer">
-                                <Button variant="default" size="sm" className="mt-2">
-                                    View Details
+                            <h4 className="text-lg font-bold mb-2">{location.Strategy}</h4>
+                            <p className="text-sm font-medium">Category: {location.Category.join(", ")}</p>
+                            <p className="text-sm font-medium">Report: {location.Report}</p>
+                            <p className="text-sm font-normal mt-2">Details: {location.Details}</p>
+                            <p className="text-sm font-normal">Key Areas: {location.KeyAreas.join(", ")}</p>
+                            <Link href={location.Link} target="_blank" rel="noopener noreferrer">
+                                <Button variant="default" size="sm" className="mt-4">
+                                    View More Details
                                 </Button>
                             </Link>
                         </Popup>
