@@ -1,0 +1,2002 @@
+[
+    {
+        "name": "Smart Strategies in Chicago",
+        "author": "Andrew Johnson",
+        "description": "A case study on local ecosystems strategies in Chicago",
+        "category": "Urban Development",
+        "year": 2018,
+        "link": "https://example.com/2729",
+        "latitude": 49.0464,
+        "longitude": -83.0664
+    },
+    {
+        "name": "Efficient Infrastructure for urban heat",
+        "author": "Samantha Davis",
+        "description": "Explores the use of air pollution for urban heat in Chicago",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/1363",
+        "latitude": 25.6555,
+        "longitude": -72.4921
+    },
+    {
+        "name": "Green Infrastructure for housing equity",
+        "author": "Andrew Doe",
+        "description": "Explores the use of renewable energy for housing equity in San Francisco",
+        "category": "Urban Development",
+        "year": 2020,
+        "link": "https://example.com/6835",
+        "latitude": 43.7161,
+        "longitude": -70.1734
+    },
+    {
+        "name": "tourism and Advanced urban sprawl",
+        "author": "Ava Lee",
+        "description": "Analyzes the relationship between tourism and urban sprawl in San Francisco",
+        "category": "Urban Development",
+        "year": 2023,
+        "link": "https://example.com/9630",
+        "latitude": 34.7342,
+        "longitude": -84.8927
+    },
+    {
+        "name": "Sustainable Strategies in Denver",
+        "author": "Samantha Wilson",
+        "description": "A case study on energy efficiency strategies in Denver",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/8352",
+        "latitude": 48.872,
+        "longitude": -90.2088
+    },
+    {
+        "name": "Innovative Infrastructure for coastal resilience",
+        "author": "Oliver Wilson",
+        "description": "Explores the use of water conservation for coastal resilience in Miami",
+        "category": "Urban Development",
+        "year": 2025,
+        "link": "https://example.com/8821",
+        "latitude": 35.8292,
+        "longitude": -85.0201
+    },
+    {
+        "name": "Impact of Innovative flood management on tourism",
+        "author": "Emma Smith",
+        "description": "Study on how flood management impacts tourism in Austin",
+        "category": "Urban Development",
+        "year": 2023,
+        "link": "https://example.com/9201",
+        "latitude": 35.6596,
+        "longitude": -78.9355
+    },
+    {
+        "name": "housing equity and Smart renewable energy",
+        "author": "Ava Davis",
+        "description": "Analyzes the relationship between housing equity and renewable energy in Miami",
+        "category": "Urban Development",
+        "year": 2020,
+        "link": "https://example.com/9098",
+        "latitude": 36.5777,
+        "longitude": -123.5643
+    },
+    {
+        "name": "Sustainable Infrastructure for housing equity",
+        "author": "Sophia Lee",
+        "description": "Explores the use of flood management for housing equity in Los Angeles",
+        "category": "Urban Development",
+        "year": 2018,
+        "link": "https://example.com/3174",
+        "latitude": 26.4417,
+        "longitude": -94.2604
+    },
+    {
+        "name": "coastal resilience and Advanced urban sprawl",
+        "author": "Andrew Brown",
+        "description": "Analyzes the relationship between coastal resilience and urban sprawl in Denver",
+        "category": "Urban Development",
+        "year": 2020,
+        "link": "https://example.com/2577",
+        "latitude": 49.2129,
+        "longitude": -100.8246
+    },
+    {
+        "name": "housing equity and Innovative air pollution",
+        "author": "John Green",
+        "description": "Analyzes the relationship between housing equity and air pollution in Chicago",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/9190",
+        "latitude": 38.4888,
+        "longitude": -66.3218
+    },
+    {
+        "name": "Smart Strategies in Denver",
+        "author": "William Clark",
+        "description": "A case study on tourism strategies in Denver",
+        "category": "Environmental Studies",
+        "year": 2022,
+        "link": "https://example.com/2606",
+        "latitude": 43.2857,
+        "longitude": -92.9691
+    },
+    {
+        "name": "Green Infrastructure for urban heat",
+        "author": "Jane Clark",
+        "description": "Explores the use of flood management for urban heat in New York",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/9795",
+        "latitude": 27.1348,
+        "longitude": -111.3458
+    },
+    {
+        "name": "coastal resilience and Green green roofs",
+        "author": "Jane Wilson",
+        "description": "Analyzes the relationship between coastal resilience and green roofs in Austin",
+        "category": "Technology Innovation",
+        "year": 2025,
+        "link": "https://example.com/7983",
+        "latitude": 39.9361,
+        "longitude": -123.7721
+    },
+    {
+        "name": "Smart Strategies in Austin",
+        "author": "Emily Green",
+        "description": "A case study on local ecosystems strategies in Austin",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/7814",
+        "latitude": 43.8038,
+        "longitude": -72.1859
+    },
+    {
+        "name": "Efficient Infrastructure for coastal resilience",
+        "author": "Ava Miller",
+        "description": "Explores the use of urban sprawl for coastal resilience in San Francisco",
+        "category": "Technology Innovation",
+        "year": 2020,
+        "link": "https://example.com/8661",
+        "latitude": 47.8548,
+        "longitude": -68.8354
+    },
+    {
+        "name": "energy efficiency and Advanced urban sprawl",
+        "author": "James Taylor",
+        "description": "Analyzes the relationship between energy efficiency and urban sprawl in Miami",
+        "category": "Environmental Studies",
+        "year": 2022,
+        "link": "https://example.com/5707",
+        "latitude": 44.4808,
+        "longitude": -71.7502
+    },
+    {
+        "name": "Impact of Sustainable water conservation on tourism",
+        "author": "William Clark",
+        "description": "Study on how water conservation impacts tourism in Austin",
+        "category": "Environmental Studies",
+        "year": 2021,
+        "link": "https://example.com/2680",
+        "latitude": 36.9852,
+        "longitude": -73.6049
+    },
+    {
+        "name": "Impact of Sustainable air pollution on local ecosystems",
+        "author": "William Martinez",
+        "description": "Study on how air pollution impacts local ecosystems in New York",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/5993",
+        "latitude": 35.6578,
+        "longitude": -78.2601
+    },
+    {
+        "name": "Impact of Efficient water conservation on coastal resilience",
+        "author": "James Doe",
+        "description": "Study on how water conservation impacts coastal resilience in Austin",
+        "category": "Environmental Studies",
+        "year": 2022,
+        "link": "https://example.com/6274",
+        "latitude": 39.4954,
+        "longitude": -100.1351
+    },
+    {
+        "name": "local ecosystems and Advanced air pollution",
+        "author": "Emily Doe",
+        "description": "Analyzes the relationship between local ecosystems and air pollution in Miami",
+        "category": "Urban Development",
+        "year": 2019,
+        "link": "https://example.com/354",
+        "latitude": 28.8258,
+        "longitude": -102.0863
+    },
+    {
+        "name": "Smart Infrastructure for tourism",
+        "author": "James Wilson",
+        "description": "Explores the use of renewable energy for tourism in Austin",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/4445",
+        "latitude": 44.4486,
+        "longitude": -78.4146
+    },
+    {
+        "name": "Advanced Strategies in Austin",
+        "author": "Mia Martinez",
+        "description": "A case study on housing equity strategies in Austin",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/8993",
+        "latitude": 41.9307,
+        "longitude": -74.0227
+    },
+    {
+        "name": "housing equity and Green air pollution",
+        "author": "Mia Davis",
+        "description": "Analyzes the relationship between housing equity and air pollution in Los Angeles",
+        "category": "Environmental Studies",
+        "year": 2021,
+        "link": "https://example.com/3431",
+        "latitude": 26.2207,
+        "longitude": -71.2838
+    },
+    {
+        "name": "Green Strategies in Los Angeles",
+        "author": "Oliver Green",
+        "description": "A case study on tourism strategies in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2024,
+        "link": "https://example.com/2181",
+        "latitude": 30.1958,
+        "longitude": -112.9567
+    },
+    {
+        "name": "energy efficiency and Smart air pollution",
+        "author": "Sophia Martinez",
+        "description": "Analyzes the relationship between energy efficiency and air pollution in Austin",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/8787",
+        "latitude": 48.8185,
+        "longitude": -120.5866
+    },
+    {
+        "name": "Efficient Strategies in Miami",
+        "author": "James Green",
+        "description": "A case study on tourism strategies in Miami",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/2355",
+        "latitude": 36.9493,
+        "longitude": -115.108
+    },
+    {
+        "name": "Advanced Strategies in Denver",
+        "author": "Oliver Green",
+        "description": "A case study on urban heat strategies in Denver",
+        "category": "Technology Innovation",
+        "year": 2024,
+        "link": "https://example.com/8552",
+        "latitude": 46.465,
+        "longitude": -105.0592
+    },
+    {
+        "name": "Sustainable Strategies in Miami",
+        "author": "Sophia Clark",
+        "description": "A case study on housing equity strategies in Miami",
+        "category": "Environmental Studies",
+        "year": 2022,
+        "link": "https://example.com/8789",
+        "latitude": 45.0318,
+        "longitude": -87.7552
+    },
+    {
+        "name": "tourism and Innovative renewable energy",
+        "author": "Michael Clark",
+        "description": "Analyzes the relationship between tourism and renewable energy in San Francisco",
+        "category": "Technology Innovation",
+        "year": 2025,
+        "link": "https://example.com/314",
+        "latitude": 46.1465,
+        "longitude": -98.2113
+    },
+    {
+        "name": "Impact of Sustainable green roofs on tourism",
+        "author": "Oliver Smith",
+        "description": "Study on how green roofs impacts tourism in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2025,
+        "link": "https://example.com/7098",
+        "latitude": 29.247,
+        "longitude": -115.6702
+    },
+    {
+        "name": "Sustainable Strategies in Denver",
+        "author": "Andrew Green",
+        "description": "A case study on tourism strategies in Denver",
+        "category": "Environmental Studies",
+        "year": 2018,
+        "link": "https://example.com/8930",
+        "latitude": 33.1257,
+        "longitude": -122.4092
+    },
+    {
+        "name": "Innovative Strategies in Los Angeles",
+        "author": "Ava Zhang",
+        "description": "A case study on housing equity strategies in Los Angeles",
+        "category": "Environmental Studies",
+        "year": 2022,
+        "link": "https://example.com/5157",
+        "latitude": 44.2269,
+        "longitude": -99.4682
+    },
+    {
+        "name": "tourism and Innovative flood management",
+        "author": "Jane Lee",
+        "description": "Analyzes the relationship between tourism and flood management in Los Angeles",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/9875",
+        "latitude": 41.7874,
+        "longitude": -75.8799
+    },
+    {
+        "name": "Impact of Innovative water conservation on tourism",
+        "author": "Samantha Johnson",
+        "description": "Study on how water conservation impacts tourism in Chicago",
+        "category": "Technology Innovation",
+        "year": 2021,
+        "link": "https://example.com/1534",
+        "latitude": 45.9479,
+        "longitude": -119.4689
+    },
+    {
+        "name": "Green Infrastructure for coastal resilience",
+        "author": "Emma Green",
+        "description": "Explores the use of green roofs for coastal resilience in Denver",
+        "category": "Environmental Studies",
+        "year": 2021,
+        "link": "https://example.com/4000",
+        "latitude": 32.8857,
+        "longitude": -124.2229
+    },
+    {
+        "name": "Impact of Innovative flood management on tourism",
+        "author": "Ava Clark",
+        "description": "Study on how flood management impacts tourism in Denver",
+        "category": "Environmental Studies",
+        "year": 2023,
+        "link": "https://example.com/4316",
+        "latitude": 38.9004,
+        "longitude": -115.7785
+    },
+    {
+        "name": "coastal resilience and Sustainable urban sprawl",
+        "author": "Samantha Zhang",
+        "description": "Analyzes the relationship between coastal resilience and urban sprawl in Austin",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/2533",
+        "latitude": 45.8212,
+        "longitude": -112.9728
+    },
+    {
+        "name": "Innovative Infrastructure for housing equity",
+        "author": "Sophia Martinez",
+        "description": "Explores the use of green roofs for housing equity in Chicago",
+        "category": "Urban Development",
+        "year": 2021,
+        "link": "https://example.com/4802",
+        "latitude": 26.9601,
+        "longitude": -87.6215
+    },
+    {
+        "name": "Impact of Efficient air pollution on coastal resilience",
+        "author": "Samantha Taylor",
+        "description": "Study on how air pollution impacts coastal resilience in Chicago",
+        "category": "Technology Innovation",
+        "year": 2019,
+        "link": "https://example.com/7240",
+        "latitude": 40.0665,
+        "longitude": -81.8007
+    },
+    {
+        "name": "Impact of Innovative flood management on housing equity",
+        "author": "Emma Lee",
+        "description": "Study on how flood management impacts housing equity in Denver",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/4027",
+        "latitude": 45.6705,
+        "longitude": -101.7524
+    },
+    {
+        "name": "Green Infrastructure for tourism",
+        "author": "Ava Johnson",
+        "description": "Explores the use of renewable energy for tourism in Chicago",
+        "category": "Technology Innovation",
+        "year": 2021,
+        "link": "https://example.com/3800",
+        "latitude": 32.8264,
+        "longitude": -111.6393
+    },
+    {
+        "name": "Impact of Sustainable flood management on coastal resilience",
+        "author": "Andrew Zhang",
+        "description": "Study on how flood management impacts coastal resilience in New York",
+        "category": "Environmental Studies",
+        "year": 2018,
+        "link": "https://example.com/8354",
+        "latitude": 36.4887,
+        "longitude": -122.2528
+    },
+    {
+        "name": "Smart Infrastructure for housing equity",
+        "author": "William Miller",
+        "description": "Explores the use of air pollution for housing equity in Denver",
+        "category": "Urban Development",
+        "year": 2025,
+        "link": "https://example.com/9550",
+        "latitude": 25.6583,
+        "longitude": -67.5052
+    },
+    {
+        "name": "Advanced Infrastructure for energy efficiency",
+        "author": "Jane Zhang",
+        "description": "Explores the use of air pollution for energy efficiency in Denver",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/6570",
+        "latitude": 45.3983,
+        "longitude": -102.306
+    },
+    {
+        "name": "local ecosystems and Advanced green roofs",
+        "author": "Mia Doe",
+        "description": "Analyzes the relationship between local ecosystems and green roofs in Austin",
+        "category": "Technology Innovation",
+        "year": 2024,
+        "link": "https://example.com/9780",
+        "latitude": 36.8529,
+        "longitude": -94.6709
+    },
+    {
+        "name": "tourism and Advanced urban sprawl",
+        "author": "Mia Clark",
+        "description": "Analyzes the relationship between tourism and urban sprawl in Chicago",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/891",
+        "latitude": 43.1218,
+        "longitude": -111.9878
+    },
+    {
+        "name": "Impact of Smart renewable energy on tourism",
+        "author": "Michael Johnson",
+        "description": "Study on how renewable energy impacts tourism in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2022,
+        "link": "https://example.com/9642",
+        "latitude": 36.8269,
+        "longitude": -74.4461
+    },
+    {
+        "name": "tourism and Smart urban sprawl",
+        "author": "John Clark",
+        "description": "Analyzes the relationship between tourism and urban sprawl in Austin",
+        "category": "Technology Innovation",
+        "year": 2019,
+        "link": "https://example.com/1621",
+        "latitude": 40.4192,
+        "longitude": -85.8927
+    },
+    {
+        "name": "Smart Strategies in San Francisco",
+        "author": "John Green",
+        "description": "A case study on coastal resilience strategies in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2022,
+        "link": "https://example.com/474",
+        "latitude": 46.085,
+        "longitude": -81.8146
+    },
+    {
+        "name": "Efficient Infrastructure for coastal resilience",
+        "author": "Emily Smith",
+        "description": "Explores the use of green roofs for coastal resilience in Denver",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/2365",
+        "latitude": 46.9873,
+        "longitude": -99.275
+    },
+    {
+        "name": "Efficient Strategies in Los Angeles",
+        "author": "John Zhang",
+        "description": "A case study on housing equity strategies in Los Angeles",
+        "category": "Environmental Studies",
+        "year": 2024,
+        "link": "https://example.com/1575",
+        "latitude": 39.9202,
+        "longitude": -117.3828
+    },
+    {
+        "name": "Efficient Infrastructure for energy efficiency",
+        "author": "Sophia Smith",
+        "description": "Explores the use of green roofs for energy efficiency in Austin",
+        "category": "Urban Development",
+        "year": 2018,
+        "link": "https://example.com/3296",
+        "latitude": 34.5981,
+        "longitude": -86.8108
+    },
+    {
+        "name": "Impact of Smart water conservation on energy efficiency",
+        "author": "Jane Smith",
+        "description": "Study on how water conservation impacts energy efficiency in Miami",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/3995",
+        "latitude": 47.1319,
+        "longitude": -104.9402
+    },
+    {
+        "name": "Advanced Strategies in Austin",
+        "author": "Oliver Doe",
+        "description": "A case study on energy efficiency strategies in Austin",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/8390",
+        "latitude": 25.8361,
+        "longitude": -109.4996
+    },
+    {
+        "name": "Sustainable Infrastructure for urban heat",
+        "author": "James Smith",
+        "description": "Explores the use of urban sprawl for urban heat in Miami",
+        "category": "Environmental Studies",
+        "year": 2018,
+        "link": "https://example.com/4177",
+        "latitude": 28.277,
+        "longitude": -118.6374
+    },
+    {
+        "name": "Impact of Smart urban sprawl on urban heat",
+        "author": "Andrew Smith",
+        "description": "Study on how urban sprawl impacts urban heat in Los Angeles",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/4329",
+        "latitude": 26.888,
+        "longitude": -111.9987
+    },
+    {
+        "name": "tourism and Smart renewable energy",
+        "author": "John Smith",
+        "description": "Analyzes the relationship between tourism and renewable energy in Denver",
+        "category": "Technology Innovation",
+        "year": 2024,
+        "link": "https://example.com/6327",
+        "latitude": 42.9693,
+        "longitude": -95.9723
+    },
+    {
+        "name": "Advanced Strategies in New York",
+        "author": "Ava Brown",
+        "description": "A case study on tourism strategies in New York",
+        "category": "Urban Development",
+        "year": 2025,
+        "link": "https://example.com/920",
+        "latitude": 28.559,
+        "longitude": -67.1769
+    },
+    {
+        "name": "Green Strategies in Chicago",
+        "author": "Samantha Zhang",
+        "description": "A case study on energy efficiency strategies in Chicago",
+        "category": "Technology Innovation",
+        "year": 2020,
+        "link": "https://example.com/6287",
+        "latitude": 29.8223,
+        "longitude": -118.7949
+    },
+    {
+        "name": "Advanced Infrastructure for local ecosystems",
+        "author": "Sophia Taylor",
+        "description": "Explores the use of green roofs for local ecosystems in Austin",
+        "category": "Urban Development",
+        "year": 2018,
+        "link": "https://example.com/6215",
+        "latitude": 29.2232,
+        "longitude": -90.6554
+    },
+    {
+        "name": "Advanced Strategies in Miami",
+        "author": "Sophia Brown",
+        "description": "A case study on urban heat strategies in Miami",
+        "category": "Technology Innovation",
+        "year": 2024,
+        "link": "https://example.com/1552",
+        "latitude": 44.2122,
+        "longitude": -100.5283
+    },
+    {
+        "name": "Impact of Efficient green roofs on housing equity",
+        "author": "James Brown",
+        "description": "Study on how green roofs impacts housing equity in Los Angeles",
+        "category": "Urban Development",
+        "year": 2023,
+        "link": "https://example.com/4655",
+        "latitude": 28.6959,
+        "longitude": -106.1308
+    },
+    {
+        "name": "urban heat and Smart renewable energy",
+        "author": "Oliver Davis",
+        "description": "Analyzes the relationship between urban heat and renewable energy in Austin",
+        "category": "Technology Innovation",
+        "year": 2019,
+        "link": "https://example.com/6052",
+        "latitude": 48.7998,
+        "longitude": -108.8877
+    },
+    {
+        "name": "Impact of Innovative green roofs on energy efficiency",
+        "author": "Andrew Taylor",
+        "description": "Study on how green roofs impacts energy efficiency in New York",
+        "category": "Environmental Studies",
+        "year": 2024,
+        "link": "https://example.com/8076",
+        "latitude": 27.9323,
+        "longitude": -119.2965
+    },
+    {
+        "name": "Efficient Strategies in Chicago",
+        "author": "Jane Wilson",
+        "description": "A case study on coastal resilience strategies in Chicago",
+        "category": "Urban Development",
+        "year": 2025,
+        "link": "https://example.com/8445",
+        "latitude": 41.6402,
+        "longitude": -72.3121
+    },
+    {
+        "name": "Sustainable Strategies in Chicago",
+        "author": "Jane Green",
+        "description": "A case study on energy efficiency strategies in Chicago",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/6363",
+        "latitude": 30.0871,
+        "longitude": -89.7733
+    },
+    {
+        "name": "Innovative Strategies in Denver",
+        "author": "Sophia Brown",
+        "description": "A case study on urban heat strategies in Denver",
+        "category": "Urban Development",
+        "year": 2020,
+        "link": "https://example.com/4317",
+        "latitude": 38.9967,
+        "longitude": -106.8394
+    },
+    {
+        "name": "housing equity and Innovative green roofs",
+        "author": "Emma Smith",
+        "description": "Analyzes the relationship between housing equity and green roofs in Chicago",
+        "category": "Environmental Studies",
+        "year": 2018,
+        "link": "https://example.com/5263",
+        "latitude": 25.4236,
+        "longitude": -107.453
+    },
+    {
+        "name": "urban heat and Smart green roofs",
+        "author": "Oliver Miller",
+        "description": "Analyzes the relationship between urban heat and green roofs in Miami",
+        "category": "Technology Innovation",
+        "year": 2025,
+        "link": "https://example.com/1535",
+        "latitude": 49.2309,
+        "longitude": -83.3898
+    },
+    {
+        "name": "Green Infrastructure for energy efficiency",
+        "author": "Samantha Miller",
+        "description": "Explores the use of green roofs for energy efficiency in Austin",
+        "category": "Urban Development",
+        "year": 2018,
+        "link": "https://example.com/6326",
+        "latitude": 26.724,
+        "longitude": -108.4681
+    },
+    {
+        "name": "Impact of Green water conservation on tourism",
+        "author": "Emma Lee",
+        "description": "Study on how water conservation impacts tourism in Denver",
+        "category": "Technology Innovation",
+        "year": 2018,
+        "link": "https://example.com/9117",
+        "latitude": 47.5063,
+        "longitude": -120.0959
+    },
+    {
+        "name": "energy efficiency and Green flood management",
+        "author": "John Brown",
+        "description": "Analyzes the relationship between energy efficiency and flood management in Denver",
+        "category": "Technology Innovation",
+        "year": 2021,
+        "link": "https://example.com/1857",
+        "latitude": 36.1975,
+        "longitude": -69.378
+    },
+    {
+        "name": "coastal resilience and Sustainable water conservation",
+        "author": "Emily Zhang",
+        "description": "Analyzes the relationship between coastal resilience and water conservation in Los Angeles",
+        "category": "Environmental Studies",
+        "year": 2019,
+        "link": "https://example.com/3684",
+        "latitude": 31.0144,
+        "longitude": -91.821
+    },
+    {
+        "name": "Innovative Strategies in New York",
+        "author": "Jane Davis",
+        "description": "A case study on local ecosystems strategies in New York",
+        "category": "Environmental Studies",
+        "year": 2024,
+        "link": "https://example.com/7502",
+        "latitude": 49.0762,
+        "longitude": -74.3126
+    },
+    {
+        "name": "tourism and Sustainable air pollution",
+        "author": "Emily Green",
+        "description": "Analyzes the relationship between tourism and air pollution in San Francisco",
+        "category": "Urban Development",
+        "year": 2019,
+        "link": "https://example.com/2438",
+        "latitude": 41.6301,
+        "longitude": -92.8711
+    },
+    {
+        "name": "Efficient Strategies in San Francisco",
+        "author": "Jane Zhang",
+        "description": "A case study on energy efficiency strategies in San Francisco",
+        "category": "Technology Innovation",
+        "year": 2021,
+        "link": "https://example.com/8447",
+        "latitude": 45.9968,
+        "longitude": -98.5139
+    },
+    {
+        "name": "Impact of Green flood management on energy efficiency",
+        "author": "John Davis",
+        "description": "Study on how flood management impacts energy efficiency in Miami",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/1297",
+        "latitude": 26.8281,
+        "longitude": -117.6297
+    },
+    {
+        "name": "Efficient Infrastructure for housing equity",
+        "author": "William Smith",
+        "description": "Explores the use of renewable energy for housing equity in San Francisco",
+        "category": "Urban Development",
+        "year": 2023,
+        "link": "https://example.com/7835",
+        "latitude": 33.3026,
+        "longitude": -88.6069
+    },
+    {
+        "name": "Innovative Strategies in New York",
+        "author": "Oliver Lee",
+        "description": "A case study on tourism strategies in New York",
+        "category": "Environmental Studies",
+        "year": 2019,
+        "link": "https://example.com/7269",
+        "latitude": 36.6862,
+        "longitude": -113.3268
+    },
+    {
+        "name": "Advanced Infrastructure for tourism",
+        "author": "William Lee",
+        "description": "Explores the use of water conservation for tourism in New York",
+        "category": "Urban Development",
+        "year": 2021,
+        "link": "https://example.com/4211",
+        "latitude": 42.8807,
+        "longitude": -84.9891
+    },
+    {
+        "name": "Impact of Sustainable water conservation on urban heat",
+        "author": "John Brown",
+        "description": "Study on how water conservation impacts urban heat in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2024,
+        "link": "https://example.com/3475",
+        "latitude": 34.2582,
+        "longitude": -81.4776
+    },
+    {
+        "name": "coastal resilience and Efficient flood management",
+        "author": "Mia Lee",
+        "description": "Analyzes the relationship between coastal resilience and flood management in Chicago",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/8928",
+        "latitude": 31.6307,
+        "longitude": -92.4892
+    },
+    {
+        "name": "coastal resilience and Efficient water conservation",
+        "author": "Jane Johnson",
+        "description": "Analyzes the relationship between coastal resilience and water conservation in Denver",
+        "category": "Technology Innovation",
+        "year": 2024,
+        "link": "https://example.com/6398",
+        "latitude": 25.5462,
+        "longitude": -81.1459
+    },
+    {
+        "name": "coastal resilience and Sustainable air pollution",
+        "author": "Mia Green",
+        "description": "Analyzes the relationship between coastal resilience and air pollution in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/5054",
+        "latitude": 31.6722,
+        "longitude": -78.1449
+    },
+    {
+        "name": "Impact of Advanced renewable energy on urban heat",
+        "author": "Mia Davis",
+        "description": "Study on how renewable energy impacts urban heat in Denver",
+        "category": "Technology Innovation",
+        "year": 2018,
+        "link": "https://example.com/7442",
+        "latitude": 44.4164,
+        "longitude": -101.4948
+    },
+    {
+        "name": "Advanced Infrastructure for urban heat",
+        "author": "James Lee",
+        "description": "Explores the use of flood management for urban heat in Austin",
+        "category": "Environmental Studies",
+        "year": 2021,
+        "link": "https://example.com/5393",
+        "latitude": 32.2317,
+        "longitude": -80.4521
+    },
+    {
+        "name": "Green Infrastructure for coastal resilience",
+        "author": "Andrew Miller",
+        "description": "Explores the use of renewable energy for coastal resilience in San Francisco",
+        "category": "Urban Development",
+        "year": 2020,
+        "link": "https://example.com/5111",
+        "latitude": 44.7657,
+        "longitude": -93.5461
+    },
+    {
+        "name": "housing equity and Innovative flood management",
+        "author": "James Zhang",
+        "description": "Analyzes the relationship between housing equity and flood management in New York",
+        "category": "Technology Innovation",
+        "year": 2019,
+        "link": "https://example.com/968",
+        "latitude": 43.838,
+        "longitude": -120.9358
+    },
+    {
+        "name": "local ecosystems and Green green roofs",
+        "author": "Mia Green",
+        "description": "Analyzes the relationship between local ecosystems and green roofs in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2021,
+        "link": "https://example.com/7333",
+        "latitude": 35.058,
+        "longitude": -87.4922
+    },
+    {
+        "name": "Efficient Strategies in Chicago",
+        "author": "Emily Wilson",
+        "description": "A case study on energy efficiency strategies in Chicago",
+        "category": "Technology Innovation",
+        "year": 2019,
+        "link": "https://example.com/322",
+        "latitude": 27.3952,
+        "longitude": -85.0013
+    },
+    {
+        "name": "Sustainable Infrastructure for coastal resilience",
+        "author": "John Smith",
+        "description": "Explores the use of green roofs for coastal resilience in New York",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/5595",
+        "latitude": 37.1277,
+        "longitude": -95.6551
+    },
+    {
+        "name": "Green Strategies in Miami",
+        "author": "Sophia Smith",
+        "description": "A case study on housing equity strategies in Miami",
+        "category": "Urban Development",
+        "year": 2025,
+        "link": "https://example.com/875",
+        "latitude": 32.4076,
+        "longitude": -75.4212
+    },
+    {
+        "name": "Green Strategies in Los Angeles",
+        "author": "Mia Martinez",
+        "description": "A case study on coastal resilience strategies in Los Angeles",
+        "category": "Urban Development",
+        "year": 2022,
+        "link": "https://example.com/5706",
+        "latitude": 47.9911,
+        "longitude": -73.3647
+    },
+    {
+        "name": "local ecosystems and Efficient green roofs",
+        "author": "William Martinez",
+        "description": "Analyzes the relationship between local ecosystems and green roofs in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/6580",
+        "latitude": 27.9028,
+        "longitude": -95.6032
+    },
+    {
+        "name": "local ecosystems and Innovative renewable energy",
+        "author": "Oliver Clark",
+        "description": "Analyzes the relationship between local ecosystems and renewable energy in Austin",
+        "category": "Environmental Studies",
+        "year": 2024,
+        "link": "https://example.com/9293",
+        "latitude": 48.7161,
+        "longitude": -85.193
+    },
+    {
+        "name": "Impact of Advanced air pollution on tourism",
+        "author": "Ava Lee",
+        "description": "Study on how air pollution impacts tourism in Austin",
+        "category": "Technology Innovation",
+        "year": 2020,
+        "link": "https://example.com/580",
+        "latitude": 44.3195,
+        "longitude": -80.2366
+    },
+    {
+        "name": "Innovative Strategies in Austin",
+        "author": "Samantha Taylor",
+        "description": "A case study on energy efficiency strategies in Austin",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/2920",
+        "latitude": 43.4584,
+        "longitude": -114.8083
+    },
+    {
+        "name": "Innovative Strategies in Chicago",
+        "author": "William Brown",
+        "description": "A case study on tourism strategies in Chicago",
+        "category": "Technology Innovation",
+        "year": 2025,
+        "link": "https://example.com/4740",
+        "latitude": 28.0879,
+        "longitude": -74.2882
+    },
+    {
+        "name": "Smart Strategies in Los Angeles",
+        "author": "Emily Lee",
+        "description": "A case study on local ecosystems strategies in Los Angeles",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/44",
+        "latitude": 34.3078,
+        "longitude": -124.3649
+    },
+    {
+        "name": "coastal resilience and Efficient renewable energy",
+        "author": "William Smith",
+        "description": "Analyzes the relationship between coastal resilience and renewable energy in Chicago",
+        "category": "Urban Development",
+        "year": 2020,
+        "link": "https://example.com/2465",
+        "latitude": 40.228,
+        "longitude": -123.0852
+    },
+    {
+        "name": "Green Strategies in Austin",
+        "author": "Ava Brown",
+        "description": "A case study on tourism strategies in Austin",
+        "category": "Technology Innovation",
+        "year": 2019,
+        "link": "https://example.com/6656",
+        "latitude": 38.7567,
+        "longitude": -113.0086
+    },
+    {
+        "name": "Impact of Efficient urban sprawl on energy efficiency",
+        "author": "Andrew Clark",
+        "description": "Study on how urban sprawl impacts energy efficiency in Austin",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/3707",
+        "latitude": 27.5807,
+        "longitude": -98.3718
+    },
+    {
+        "name": "Green Strategies in Miami",
+        "author": "Andrew Green",
+        "description": "A case study on energy efficiency strategies in Miami",
+        "category": "Technology Innovation",
+        "year": 2018,
+        "link": "https://example.com/9702",
+        "latitude": 44.197,
+        "longitude": -70.6942
+    },
+    {
+        "name": "local ecosystems and Green urban sprawl",
+        "author": "James Doe",
+        "description": "Analyzes the relationship between local ecosystems and urban sprawl in New York",
+        "category": "Urban Development",
+        "year": 2022,
+        "link": "https://example.com/5972",
+        "latitude": 33.7334,
+        "longitude": -101.3989
+    },
+    {
+        "name": "tourism and Efficient water conservation",
+        "author": "Andrew Zhang",
+        "description": "Analyzes the relationship between tourism and water conservation in Denver",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/5030",
+        "latitude": 45.5901,
+        "longitude": -92.7152
+    },
+    {
+        "name": "Advanced Infrastructure for coastal resilience",
+        "author": "James Zhang",
+        "description": "Explores the use of urban sprawl for coastal resilience in Chicago",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/9304",
+        "latitude": 35.1707,
+        "longitude": -75.2649
+    },
+    {
+        "name": "energy efficiency and Innovative green roofs",
+        "author": "Ava Martinez",
+        "description": "Analyzes the relationship between energy efficiency and green roofs in Los Angeles",
+        "category": "Urban Development",
+        "year": 2018,
+        "link": "https://example.com/1208",
+        "latitude": 43.0376,
+        "longitude": -89.748
+    },
+    {
+        "name": "Advanced Strategies in Denver",
+        "author": "Emily Taylor",
+        "description": "A case study on energy efficiency strategies in Denver",
+        "category": "Environmental Studies",
+        "year": 2018,
+        "link": "https://example.com/7948",
+        "latitude": 42.4633,
+        "longitude": -124.3731
+    },
+    {
+        "name": "local ecosystems and Green water conservation",
+        "author": "Jane Brown",
+        "description": "Analyzes the relationship between local ecosystems and water conservation in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2020,
+        "link": "https://example.com/6219",
+        "latitude": 37.102,
+        "longitude": -77.9816
+    },
+    {
+        "name": "tourism and Innovative renewable energy",
+        "author": "Sophia Clark",
+        "description": "Analyzes the relationship between tourism and renewable energy in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/500",
+        "latitude": 48.0451,
+        "longitude": -71.3116
+    },
+    {
+        "name": "Impact of Smart renewable energy on housing equity",
+        "author": "Jane Zhang",
+        "description": "Study on how renewable energy impacts housing equity in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2018,
+        "link": "https://example.com/449",
+        "latitude": 47.8297,
+        "longitude": -96.1344
+    },
+    {
+        "name": "Impact of Sustainable urban sprawl on local ecosystems",
+        "author": "William Miller",
+        "description": "Study on how urban sprawl impacts local ecosystems in Austin",
+        "category": "Environmental Studies",
+        "year": 2018,
+        "link": "https://example.com/1173",
+        "latitude": 39.7919,
+        "longitude": -115.3456
+    },
+    {
+        "name": "local ecosystems and Innovative air pollution",
+        "author": "James Doe",
+        "description": "Analyzes the relationship between local ecosystems and air pollution in Miami",
+        "category": "Technology Innovation",
+        "year": 2021,
+        "link": "https://example.com/1528",
+        "latitude": 49.8154,
+        "longitude": -74.8005
+    },
+    {
+        "name": "Sustainable Infrastructure for local ecosystems",
+        "author": "Oliver Zhang",
+        "description": "Explores the use of renewable energy for local ecosystems in Los Angeles",
+        "category": "Environmental Studies",
+        "year": 2023,
+        "link": "https://example.com/1010",
+        "latitude": 28.8711,
+        "longitude": -98.7733
+    },
+    {
+        "name": "Smart Strategies in Austin",
+        "author": "Mia Miller",
+        "description": "A case study on energy efficiency strategies in Austin",
+        "category": "Environmental Studies",
+        "year": 2024,
+        "link": "https://example.com/3158",
+        "latitude": 41.3102,
+        "longitude": -109.846
+    },
+    {
+        "name": "urban heat and Innovative renewable energy",
+        "author": "Emily Wilson",
+        "description": "Analyzes the relationship between urban heat and renewable energy in Denver",
+        "category": "Urban Development",
+        "year": 2025,
+        "link": "https://example.com/9581",
+        "latitude": 39.3572,
+        "longitude": -109.626
+    },
+    {
+        "name": "Smart Infrastructure for tourism",
+        "author": "Michael Lee",
+        "description": "Explores the use of green roofs for tourism in Chicago",
+        "category": "Environmental Studies",
+        "year": 2022,
+        "link": "https://example.com/2380",
+        "latitude": 26.7143,
+        "longitude": -88.3931
+    },
+    {
+        "name": "Sustainable Infrastructure for tourism",
+        "author": "James Doe",
+        "description": "Explores the use of flood management for tourism in San Francisco",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/6142",
+        "latitude": 35.1905,
+        "longitude": -67.9301
+    },
+    {
+        "name": "tourism and Green green roofs",
+        "author": "Jane Miller",
+        "description": "Analyzes the relationship between tourism and green roofs in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/1145",
+        "latitude": 34.8389,
+        "longitude": -89.0502
+    },
+    {
+        "name": "Efficient Strategies in Denver",
+        "author": "Emily Wilson",
+        "description": "A case study on coastal resilience strategies in Denver",
+        "category": "Technology Innovation",
+        "year": 2021,
+        "link": "https://example.com/5168",
+        "latitude": 37.236,
+        "longitude": -68.6297
+    },
+    {
+        "name": "Impact of Efficient renewable energy on energy efficiency",
+        "author": "Jane Wilson",
+        "description": "Study on how renewable energy impacts energy efficiency in Austin",
+        "category": "Environmental Studies",
+        "year": 2019,
+        "link": "https://example.com/2737",
+        "latitude": 47.3142,
+        "longitude": -105.1413
+    },
+    {
+        "name": "Impact of Sustainable green roofs on urban heat",
+        "author": "William Wilson",
+        "description": "Study on how green roofs impacts urban heat in Austin",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/7383",
+        "latitude": 35.6402,
+        "longitude": -103.4953
+    },
+    {
+        "name": "Impact of Green air pollution on tourism",
+        "author": "Emily Brown",
+        "description": "Study on how air pollution impacts tourism in Denver",
+        "category": "Urban Development",
+        "year": 2023,
+        "link": "https://example.com/4259",
+        "latitude": 39.8273,
+        "longitude": -104.2506
+    },
+    {
+        "name": "Innovative Infrastructure for coastal resilience",
+        "author": "John Davis",
+        "description": "Explores the use of urban sprawl for coastal resilience in New York",
+        "category": "Urban Development",
+        "year": 2020,
+        "link": "https://example.com/5835",
+        "latitude": 49.7869,
+        "longitude": -108.3471
+    },
+    {
+        "name": "Smart Strategies in Denver",
+        "author": "Sophia Clark",
+        "description": "A case study on coastal resilience strategies in Denver",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/4959",
+        "latitude": 35.5902,
+        "longitude": -111.5739
+    },
+    {
+        "name": "energy efficiency and Efficient green roofs",
+        "author": "Mia Davis",
+        "description": "Analyzes the relationship between energy efficiency and green roofs in New York",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/2356",
+        "latitude": 28.3902,
+        "longitude": -120.8291
+    },
+    {
+        "name": "housing equity and Smart air pollution",
+        "author": "Emma Wilson",
+        "description": "Analyzes the relationship between housing equity and air pollution in Austin",
+        "category": "Environmental Studies",
+        "year": 2019,
+        "link": "https://example.com/7878",
+        "latitude": 40.9676,
+        "longitude": -89.7798
+    },
+    {
+        "name": "Smart Strategies in New York",
+        "author": "Michael Green",
+        "description": "A case study on tourism strategies in New York",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/2987",
+        "latitude": 26.0176,
+        "longitude": -108.0902
+    },
+    {
+        "name": "Green Strategies in Miami",
+        "author": "Emma Davis",
+        "description": "A case study on tourism strategies in Miami",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/619",
+        "latitude": 33.6089,
+        "longitude": -116.9028
+    },
+    {
+        "name": "Green Strategies in New York",
+        "author": "Mia Johnson",
+        "description": "A case study on tourism strategies in New York",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/9864",
+        "latitude": 31.8188,
+        "longitude": -66.3955
+    },
+    {
+        "name": "Impact of Advanced green roofs on coastal resilience",
+        "author": "William Brown",
+        "description": "Study on how green roofs impacts coastal resilience in San Francisco",
+        "category": "Urban Development",
+        "year": 2022,
+        "link": "https://example.com/469",
+        "latitude": 29.6449,
+        "longitude": -85.294
+    },
+    {
+        "name": "Innovative Infrastructure for housing equity",
+        "author": "William Brown",
+        "description": "Explores the use of green roofs for housing equity in San Francisco",
+        "category": "Urban Development",
+        "year": 2021,
+        "link": "https://example.com/1021",
+        "latitude": 48.518,
+        "longitude": -121.152
+    },
+    {
+        "name": "Impact of Smart green roofs on tourism",
+        "author": "Samantha Martinez",
+        "description": "Study on how green roofs impacts tourism in Chicago",
+        "category": "Urban Development",
+        "year": 2025,
+        "link": "https://example.com/8495",
+        "latitude": 40.7671,
+        "longitude": -88.0854
+    },
+    {
+        "name": "housing equity and Sustainable flood management",
+        "author": "Jane Taylor",
+        "description": "Analyzes the relationship between housing equity and flood management in Chicago",
+        "category": "Technology Innovation",
+        "year": 2024,
+        "link": "https://example.com/4429",
+        "latitude": 31.8233,
+        "longitude": -106.3955
+    },
+    {
+        "name": "tourism and Innovative renewable energy",
+        "author": "Andrew Taylor",
+        "description": "Analyzes the relationship between tourism and renewable energy in New York",
+        "category": "Environmental Studies",
+        "year": 2022,
+        "link": "https://example.com/9117",
+        "latitude": 49.4223,
+        "longitude": -75.8387
+    },
+    {
+        "name": "Impact of Innovative air pollution on local ecosystems",
+        "author": "Sophia Doe",
+        "description": "Study on how air pollution impacts local ecosystems in Chicago",
+        "category": "Technology Innovation",
+        "year": 2024,
+        "link": "https://example.com/7940",
+        "latitude": 40.6748,
+        "longitude": -113.1029
+    },
+    {
+        "name": "Smart Strategies in New York",
+        "author": "Emily Miller",
+        "description": "A case study on housing equity strategies in New York",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/4136",
+        "latitude": 25.7189,
+        "longitude": -87.7813
+    },
+    {
+        "name": "Impact of Innovative water conservation on urban heat",
+        "author": "James Brown",
+        "description": "Study on how water conservation impacts urban heat in Austin",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/1545",
+        "latitude": 31.7647,
+        "longitude": -121.807
+    },
+    {
+        "name": "Green Infrastructure for urban heat",
+        "author": "James Zhang",
+        "description": "Explores the use of renewable energy for urban heat in Denver",
+        "category": "Technology Innovation",
+        "year": 2019,
+        "link": "https://example.com/6628",
+        "latitude": 46.8289,
+        "longitude": -114.888
+    },
+    {
+        "name": "Green Infrastructure for tourism",
+        "author": "William Lee",
+        "description": "Explores the use of water conservation for tourism in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2019,
+        "link": "https://example.com/578",
+        "latitude": 39.4183,
+        "longitude": -107.63
+    },
+    {
+        "name": "Green Infrastructure for housing equity",
+        "author": "William Zhang",
+        "description": "Explores the use of flood management for housing equity in New York",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/1819",
+        "latitude": 34.5069,
+        "longitude": -74.6882
+    },
+    {
+        "name": "Efficient Strategies in Miami",
+        "author": "Mia Taylor",
+        "description": "A case study on housing equity strategies in Miami",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/472",
+        "latitude": 32.2526,
+        "longitude": -114.0274
+    },
+    {
+        "name": "Advanced Infrastructure for coastal resilience",
+        "author": "Andrew Smith",
+        "description": "Explores the use of green roofs for coastal resilience in New York",
+        "category": "Technology Innovation",
+        "year": 2020,
+        "link": "https://example.com/3011",
+        "latitude": 29.9954,
+        "longitude": -121.8289
+    },
+    {
+        "name": "coastal resilience and Innovative urban sprawl",
+        "author": "John Johnson",
+        "description": "Analyzes the relationship between coastal resilience and urban sprawl in Chicago",
+        "category": "Technology Innovation",
+        "year": 2018,
+        "link": "https://example.com/9324",
+        "latitude": 38.2817,
+        "longitude": -122.5375
+    },
+    {
+        "name": "Sustainable Strategies in Los Angeles",
+        "author": "Emily Wilson",
+        "description": "A case study on housing equity strategies in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/1037",
+        "latitude": 44.4929,
+        "longitude": -116.3802
+    },
+    {
+        "name": "Green Infrastructure for energy efficiency",
+        "author": "John Lee",
+        "description": "Explores the use of green roofs for energy efficiency in Denver",
+        "category": "Technology Innovation",
+        "year": 2025,
+        "link": "https://example.com/3864",
+        "latitude": 39.1769,
+        "longitude": -90.5386
+    },
+    {
+        "name": "Green Infrastructure for coastal resilience",
+        "author": "Michael Johnson",
+        "description": "Explores the use of renewable energy for coastal resilience in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2023,
+        "link": "https://example.com/9996",
+        "latitude": 42.6422,
+        "longitude": -116.9546
+    },
+    {
+        "name": "energy efficiency and Innovative water conservation",
+        "author": "Oliver Zhang",
+        "description": "Analyzes the relationship between energy efficiency and water conservation in Chicago",
+        "category": "Environmental Studies",
+        "year": 2024,
+        "link": "https://example.com/6174",
+        "latitude": 25.8172,
+        "longitude": -104.5389
+    },
+    {
+        "name": "Innovative Strategies in New York",
+        "author": "John Martinez",
+        "description": "A case study on urban heat strategies in New York",
+        "category": "Environmental Studies",
+        "year": 2021,
+        "link": "https://example.com/3086",
+        "latitude": 45.4726,
+        "longitude": -82.4369
+    },
+    {
+        "name": "Impact of Efficient urban sprawl on urban heat",
+        "author": "William Taylor",
+        "description": "Study on how urban sprawl impacts urban heat in Denver",
+        "category": "Technology Innovation",
+        "year": 2025,
+        "link": "https://example.com/1017",
+        "latitude": 28.8345,
+        "longitude": -101.4069
+    },
+    {
+        "name": "Green Strategies in Austin",
+        "author": "Emily Miller",
+        "description": "A case study on energy efficiency strategies in Austin",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/6121",
+        "latitude": 37.7626,
+        "longitude": -89.9009
+    },
+    {
+        "name": "Advanced Infrastructure for tourism",
+        "author": "William Green",
+        "description": "Explores the use of flood management for tourism in San Francisco",
+        "category": "Technology Innovation",
+        "year": 2020,
+        "link": "https://example.com/5400",
+        "latitude": 30.9799,
+        "longitude": -103.8613
+    },
+    {
+        "name": "local ecosystems and Sustainable renewable energy",
+        "author": "William Zhang",
+        "description": "Analyzes the relationship between local ecosystems and renewable energy in Chicago",
+        "category": "Technology Innovation",
+        "year": 2020,
+        "link": "https://example.com/2216",
+        "latitude": 47.9803,
+        "longitude": -91.1526
+    },
+    {
+        "name": "urban heat and Advanced renewable energy",
+        "author": "John Smith",
+        "description": "Analyzes the relationship between urban heat and renewable energy in Los Angeles",
+        "category": "Urban Development",
+        "year": 2023,
+        "link": "https://example.com/3489",
+        "latitude": 43.5881,
+        "longitude": -80.2141
+    },
+    {
+        "name": "Green Infrastructure for energy efficiency",
+        "author": "Oliver Clark",
+        "description": "Explores the use of flood management for energy efficiency in Chicago",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/3299",
+        "latitude": 41.4107,
+        "longitude": -93.5977
+    },
+    {
+        "name": "coastal resilience and Advanced renewable energy",
+        "author": "Sophia Lee",
+        "description": "Analyzes the relationship between coastal resilience and renewable energy in New York",
+        "category": "Urban Development",
+        "year": 2023,
+        "link": "https://example.com/5072",
+        "latitude": 39.1661,
+        "longitude": -67.8747
+    },
+    {
+        "name": "Green Strategies in Chicago",
+        "author": "Oliver Taylor",
+        "description": "A case study on coastal resilience strategies in Chicago",
+        "category": "Environmental Studies",
+        "year": 2018,
+        "link": "https://example.com/2443",
+        "latitude": 27.59,
+        "longitude": -111.0284
+    },
+    {
+        "name": "Innovative Infrastructure for energy efficiency",
+        "author": "Samantha Miller",
+        "description": "Explores the use of water conservation for energy efficiency in Austin",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/3501",
+        "latitude": 44.4692,
+        "longitude": -110.4942
+    },
+    {
+        "name": "Efficient Infrastructure for energy efficiency",
+        "author": "Michael Miller",
+        "description": "Explores the use of urban sprawl for energy efficiency in Denver",
+        "category": "Urban Development",
+        "year": 2021,
+        "link": "https://example.com/4174",
+        "latitude": 36.9211,
+        "longitude": -110.2644
+    },
+    {
+        "name": "Advanced Strategies in San Francisco",
+        "author": "James Brown",
+        "description": "A case study on urban heat strategies in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2023,
+        "link": "https://example.com/1958",
+        "latitude": 42.9403,
+        "longitude": -101.6074
+    },
+    {
+        "name": "Advanced Infrastructure for local ecosystems",
+        "author": "Samantha Martinez",
+        "description": "Explores the use of flood management for local ecosystems in San Francisco",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/8949",
+        "latitude": 41.3906,
+        "longitude": -103.1148
+    },
+    {
+        "name": "Sustainable Strategies in New York",
+        "author": "Mia Green",
+        "description": "A case study on tourism strategies in New York",
+        "category": "Urban Development",
+        "year": 2019,
+        "link": "https://example.com/5569",
+        "latitude": 39.2164,
+        "longitude": -107.7577
+    },
+    {
+        "name": "Sustainable Infrastructure for housing equity",
+        "author": "Mia Clark",
+        "description": "Explores the use of air pollution for housing equity in Denver",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/5883",
+        "latitude": 26.4059,
+        "longitude": -84.3995
+    },
+    {
+        "name": "housing equity and Innovative urban sprawl",
+        "author": "Ava Green",
+        "description": "Analyzes the relationship between housing equity and urban sprawl in New York",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/6716",
+        "latitude": 37.9669,
+        "longitude": -111.9699
+    },
+    {
+        "name": "urban heat and Sustainable renewable energy",
+        "author": "Mia Taylor",
+        "description": "Analyzes the relationship between urban heat and renewable energy in Denver",
+        "category": "Environmental Studies",
+        "year": 2023,
+        "link": "https://example.com/7444",
+        "latitude": 35.0715,
+        "longitude": -71.0004
+    },
+    {
+        "name": "tourism and Green urban sprawl",
+        "author": "John Zhang",
+        "description": "Analyzes the relationship between tourism and urban sprawl in Miami",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/9540",
+        "latitude": 48.6438,
+        "longitude": -65.0711
+    },
+    {
+        "name": "urban heat and Smart urban sprawl",
+        "author": "Emma Zhang",
+        "description": "Analyzes the relationship between urban heat and urban sprawl in Austin",
+        "category": "Urban Development",
+        "year": 2018,
+        "link": "https://example.com/7917",
+        "latitude": 41.5511,
+        "longitude": -90.9598
+    },
+    {
+        "name": "Sustainable Strategies in Chicago",
+        "author": "William Taylor",
+        "description": "A case study on coastal resilience strategies in Chicago",
+        "category": "Urban Development",
+        "year": 2022,
+        "link": "https://example.com/5333",
+        "latitude": 37.2766,
+        "longitude": -65.2066
+    },
+    {
+        "name": "local ecosystems and Advanced urban sprawl",
+        "author": "Sophia Davis",
+        "description": "Analyzes the relationship between local ecosystems and urban sprawl in Denver",
+        "category": "Technology Innovation",
+        "year": 2021,
+        "link": "https://example.com/3467",
+        "latitude": 39.7875,
+        "longitude": -74.2996
+    },
+    {
+        "name": "energy efficiency and Sustainable water conservation",
+        "author": "William Lee",
+        "description": "Analyzes the relationship between energy efficiency and water conservation in Austin",
+        "category": "Urban Development",
+        "year": 2024,
+        "link": "https://example.com/3467",
+        "latitude": 28.2066,
+        "longitude": -80.3398
+    },
+    {
+        "name": "Impact of Green flood management on local ecosystems",
+        "author": "Michael Zhang",
+        "description": "Study on how flood management impacts local ecosystems in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2019,
+        "link": "https://example.com/1206",
+        "latitude": 38.4717,
+        "longitude": -84.602
+    },
+    {
+        "name": "Smart Strategies in Denver",
+        "author": "Emma Taylor",
+        "description": "A case study on local ecosystems strategies in Denver",
+        "category": "Environmental Studies",
+        "year": 2024,
+        "link": "https://example.com/6305",
+        "latitude": 37.3726,
+        "longitude": -78.032
+    },
+    {
+        "name": "Impact of Smart urban sprawl on coastal resilience",
+        "author": "John Johnson",
+        "description": "Study on how urban sprawl impacts coastal resilience in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2018,
+        "link": "https://example.com/4487",
+        "latitude": 34.8434,
+        "longitude": -87.4665
+    },
+    {
+        "name": "Smart Strategies in Chicago",
+        "author": "Samantha Taylor",
+        "description": "A case study on coastal resilience strategies in Chicago",
+        "category": "Urban Development",
+        "year": 2021,
+        "link": "https://example.com/720",
+        "latitude": 26.2116,
+        "longitude": -114.792
+    },
+    {
+        "name": "Efficient Strategies in Austin",
+        "author": "Ava Johnson",
+        "description": "A case study on housing equity strategies in Austin",
+        "category": "Urban Development",
+        "year": 2020,
+        "link": "https://example.com/2863",
+        "latitude": 40.8921,
+        "longitude": -106.6896
+    },
+    {
+        "name": "Advanced Infrastructure for coastal resilience",
+        "author": "Mia Johnson",
+        "description": "Explores the use of water conservation for coastal resilience in Miami",
+        "category": "Environmental Studies",
+        "year": 2023,
+        "link": "https://example.com/7848",
+        "latitude": 29.3673,
+        "longitude": -68.1011
+    },
+    {
+        "name": "Green Strategies in Miami",
+        "author": "Oliver Zhang",
+        "description": "A case study on tourism strategies in Miami",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/7777",
+        "latitude": 28.7719,
+        "longitude": -96.0745
+    },
+    {
+        "name": "Impact of Innovative urban sprawl on tourism",
+        "author": "Andrew Green",
+        "description": "Study on how urban sprawl impacts tourism in Miami",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/6367",
+        "latitude": 47.3787,
+        "longitude": -84.5754
+    },
+    {
+        "name": "Innovative Infrastructure for tourism",
+        "author": "Samantha Miller",
+        "description": "Explores the use of air pollution for tourism in Denver",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/508",
+        "latitude": 42.1308,
+        "longitude": -69.1319
+    },
+    {
+        "name": "Efficient Infrastructure for local ecosystems",
+        "author": "Sophia Martinez",
+        "description": "Explores the use of flood management for local ecosystems in Chicago",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/7405",
+        "latitude": 30.9091,
+        "longitude": -120.4322
+    },
+    {
+        "name": "Green Infrastructure for energy efficiency",
+        "author": "Mia Clark",
+        "description": "Explores the use of flood management for energy efficiency in Chicago",
+        "category": "Urban Development",
+        "year": 2018,
+        "link": "https://example.com/7161",
+        "latitude": 34.8881,
+        "longitude": -74.6444
+    },
+    {
+        "name": "Sustainable Infrastructure for housing equity",
+        "author": "Emily Smith",
+        "description": "Explores the use of green roofs for housing equity in San Francisco",
+        "category": "Environmental Studies",
+        "year": 2023,
+        "link": "https://example.com/9299",
+        "latitude": 32.8309,
+        "longitude": -65.3165
+    },
+    {
+        "name": "Innovative Infrastructure for local ecosystems",
+        "author": "Emily Doe",
+        "description": "Explores the use of green roofs for local ecosystems in Miami",
+        "category": "Technology Innovation",
+        "year": 2025,
+        "link": "https://example.com/7963",
+        "latitude": 46.2147,
+        "longitude": -66.4286
+    },
+    {
+        "name": "Smart Infrastructure for housing equity",
+        "author": "John Martinez",
+        "description": "Explores the use of renewable energy for housing equity in Austin",
+        "category": "Environmental Studies",
+        "year": 2020,
+        "link": "https://example.com/3451",
+        "latitude": 45.2562,
+        "longitude": -122.3641
+    },
+    {
+        "name": "coastal resilience and Smart flood management",
+        "author": "Jane Wilson",
+        "description": "Analyzes the relationship between coastal resilience and flood management in Miami",
+        "category": "Urban Development",
+        "year": 2025,
+        "link": "https://example.com/9867",
+        "latitude": 40.3474,
+        "longitude": -91.8949
+    },
+    {
+        "name": "Smart Infrastructure for coastal resilience",
+        "author": "William Doe",
+        "description": "Explores the use of renewable energy for coastal resilience in New York",
+        "category": "Urban Development",
+        "year": 2020,
+        "link": "https://example.com/3848",
+        "latitude": 49.1785,
+        "longitude": -121.9395
+    },
+    {
+        "name": "Advanced Strategies in Denver",
+        "author": "James Taylor",
+        "description": "A case study on local ecosystems strategies in Denver",
+        "category": "Environmental Studies",
+        "year": 2023,
+        "link": "https://example.com/4720",
+        "latitude": 44.0515,
+        "longitude": -85.1876
+    },
+    {
+        "name": "Impact of Innovative green roofs on local ecosystems",
+        "author": "Sophia Johnson",
+        "description": "Study on how green roofs impacts local ecosystems in Denver",
+        "category": "Technology Innovation",
+        "year": 2018,
+        "link": "https://example.com/3665",
+        "latitude": 44.3842,
+        "longitude": -67.0189
+    },
+    {
+        "name": "Advanced Strategies in Austin",
+        "author": "Samantha Brown",
+        "description": "A case study on housing equity strategies in Austin",
+        "category": "Environmental Studies",
+        "year": 2021,
+        "link": "https://example.com/9556",
+        "latitude": 46.7295,
+        "longitude": -101.1272
+    },
+    {
+        "name": "urban heat and Smart renewable energy",
+        "author": "Samantha Smith",
+        "description": "Analyzes the relationship between urban heat and renewable energy in Los Angeles",
+        "category": "Urban Development",
+        "year": 2025,
+        "link": "https://example.com/4189",
+        "latitude": 46.7716,
+        "longitude": -103.8895
+    },
+    {
+        "name": "Impact of Smart water conservation on coastal resilience",
+        "author": "Andrew Green",
+        "description": "Study on how water conservation impacts coastal resilience in San Francisco",
+        "category": "Technology Innovation",
+        "year": 2023,
+        "link": "https://example.com/6881",
+        "latitude": 26.5386,
+        "longitude": -75.8342
+    },
+    {
+        "name": "Smart Infrastructure for energy efficiency",
+        "author": "Oliver Wilson",
+        "description": "Explores the use of renewable energy for energy efficiency in New York",
+        "category": "Technology Innovation",
+        "year": 2020,
+        "link": "https://example.com/3245",
+        "latitude": 34.3666,
+        "longitude": -85.1918
+    },
+    {
+        "name": "housing equity and Green green roofs",
+        "author": "Oliver Davis",
+        "description": "Analyzes the relationship between housing equity and green roofs in Miami",
+        "category": "Technology Innovation",
+        "year": 2024,
+        "link": "https://example.com/619",
+        "latitude": 45.1386,
+        "longitude": -69.7084
+    },
+    {
+        "name": "Advanced Strategies in Austin",
+        "author": "John Lee",
+        "description": "A case study on urban heat strategies in Austin",
+        "category": "Urban Development",
+        "year": 2023,
+        "link": "https://example.com/8074",
+        "latitude": 43.956,
+        "longitude": -67.2168
+    },
+    {
+        "name": "urban heat and Green urban sprawl",
+        "author": "Sophia Clark",
+        "description": "Analyzes the relationship between urban heat and urban sprawl in Austin",
+        "category": "Technology Innovation",
+        "year": 2018,
+        "link": "https://example.com/3222",
+        "latitude": 29.8421,
+        "longitude": -97.8235
+    },
+    {
+        "name": "Green Strategies in Los Angeles",
+        "author": "Jane Clark",
+        "description": "A case study on tourism strategies in Los Angeles",
+        "category": "Technology Innovation",
+        "year": 2022,
+        "link": "https://example.com/2266",
+        "latitude": 44.3049,
+        "longitude": -104.9705
+    },
+    {
+        "name": "Smart Strategies in Chicago",
+        "author": "Ava Lee",
+        "description": "A case study on urban heat strategies in Chicago",
+        "category": "Urban Development",
+        "year": 2021,
+        "link": "https://example.com/8780",
+        "latitude": 28.8041,
+        "longitude": -68.4135
+    },
+    {
+        "name": "Efficient Infrastructure for urban heat",
+        "author": "John Wilson",
+        "description": "Explores the use of green roofs for urban heat in Chicago",
+        "category": "Environmental Studies",
+        "year": 2023,
+        "link": "https://example.com/4302",
+        "latitude": 28.528,
+        "longitude": -73.4559
+    },
+    {
+        "name": "Innovative Strategies in New York",
+        "author": "Emma Green",
+        "description": "A case study on coastal resilience strategies in New York",
+        "category": "Environmental Studies",
+        "year": 2025,
+        "link": "https://example.com/481",
+        "latitude": 28.5468,
+        "longitude": -83.3952
+    }
+]
