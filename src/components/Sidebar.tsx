@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { Calendar, ChevronLeft, ChevronRight, Search, Filter } from "lucide-react";
+import { ChevronLeft, ChevronRight, Search, Filter, Group, InfoIcon, FlagIcon, TargetIcon } from "lucide-react";
 import Link from "next/link";
 import { MultiSelect } from "./ui/multi-select";
 import { NewFilterProps } from "@/types/filterProps";
@@ -163,7 +163,7 @@ export default function Sidebar({
                     {/* Strategy Selector */}
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
-                            <Filter className="mr-2 w-4 h-4" /> Strategies
+                            <InfoIcon className="mr-2 w-4 h-4" /> Strategies
                         </label>
                         <MultiSelect
                             options={strategies.map((strategy) => ({ value: strategy, label: strategy }))}
@@ -177,7 +177,7 @@ export default function Sidebar({
                     {/* Category Selector */}
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
-                            <Filter className="mr-2 w-4 h-4" /> Categories
+                            <Group className="mr-2 w-4 h-4" /> Categories
                         </label>
                         <MultiSelect
                             options={categories.map((category) => ({ value: category, label: category }))}
@@ -191,7 +191,7 @@ export default function Sidebar({
                     {/* Report Selector */}
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
-                            <Filter className="mr-2 w-4 h-4" /> Reports
+                            <FlagIcon className="mr-2 w-4 h-4" /> Reports
                         </label>
                         <MultiSelect
                             options={reports.map((report) => ({ value: report, label: report }))}
@@ -205,7 +205,7 @@ export default function Sidebar({
                     {/* Key Areas Selector */}
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
-                            <Filter className="mr-2 w-4 h-4" /> Key Areas
+                            <TargetIcon className="mr-2 w-4 h-4" /> Key Areas
                         </label>
                         <MultiSelect
                             options={keyAreas.map((keyArea) => ({ value: keyArea, label: keyArea }))}
