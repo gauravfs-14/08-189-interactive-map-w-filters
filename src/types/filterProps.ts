@@ -9,6 +9,4 @@ export interface NewFilterProps {
     Search: string;
     Strategy: string[];
     Category: string[];
-    Report: string[];
-    KeyAreas: string[];
 }

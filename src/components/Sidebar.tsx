@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { ChevronLeft, ChevronRight, Search, Group, InfoIcon, FlagIcon, TargetIcon } from "lucide-react";
+import { ChevronLeft, ChevronRight, Search, Group, InfoIcon } from "lucide-react";
 import Link from "next/link";
 import { MultiSelect } from "./ui/multi-select";
 import { NewFilterProps } from "@/types/filterProps";
@@ -23,8 +23,6 @@ export default function Sidebar({
         Search: searchParams.get("search") || "",
         Strategy: searchParams.get("strategy")?.split(",") || [],
         Category: searchParams.get("category")?.split(",") || [],
-        Report: searchParams.get("report")?.split(",") || [],
-        KeyAreas: searchParams.get("keyAreas")?.split(",") || [],
     });
 
     // States for user input
@@ -35,18 +33,9 @@ export default function Sidebar({
     const [selectedCategories, setSelectedCategories] = useState<string[]>(
         (searchParams.get("category")?.split(",")) || []
     );
-    const [selectedReports, setSelectedReports] = useState<string[]>(
-        (searchParams.get("report")?.split(",")) || []
-    );
-    const [selectedKeyAreas, setSelectedKeyAreas] = useState<string[]>(
-        (searchParams.get("keyAreas")?.split(",")) || []
-    );
-
 
     const [strategies, setStrategies] = useState<string[]>([]);
     const [categories, setCategories] = useState<string[]>([]);
-    const [reports, setReports] = useState<string[]>([]);
-    const [keyAreas, setKeyAreas] = useState<string[]>([]);
 
     const [isCollapsed, setIsCollapsed] = useState(false);
 
@@ -54,13 +43,9 @@ export default function Sidebar({
     useEffect(() => {
         const uniqueStrategies = Array.from(new Set(data.map((item) => item.Strategy)));
         const uniqueCategories = Array.from(new Set(data.flatMap((item) => item.Category)));
-        const uniqueReports = Array.from(new Set(data.map((item) => item.Report)));
-        const uniqueKeyAreas = Array.from(new Set(data.flatMap((item) => item.KeyAreas)));
 
         setStrategies(uniqueStrategies);
         setCategories(uniqueCategories);
-        setReports(uniqueReports);
-        setKeyAreas(uniqueKeyAreas);
     }, []);
 
     // Update Query Params
@@ -70,8 +55,6 @@ export default function Sidebar({
             if (filters.Search) query.set("search", filters.Search);
             if (filters.Strategy.length > 0) query.set("strategy", filters.Strategy.join(","));
             if (filters.Category.length > 0) query.set("category", filters.Category.join(","));
-            if (filters.Report.length > 0) query.set("report", filters.Report.join(","));
-            if (filters.KeyAreas.length > 0) query.set("keyAreas", filters.KeyAreas.join(","));
 
             router.push(`?${query.toString()}`);
         },
@@ -84,29 +67,23 @@ export default function Sidebar({
             Search: search,
             Strategy: selectedStrategies,
             Category: selectedCategories,
-            Report: selectedReports,
-            KeyAreas: selectedKeyAreas,
         };
 
         setAppliedFilters(filters);
         updateQueryParams(filters);
         onFiltersChange(filters);
-    }, [search, selectedStrategies, selectedCategories, selectedReports, selectedKeyAreas, updateQueryParams, onFiltersChange]);
+    }, [search, selectedStrategies, selectedCategories, updateQueryParams, onFiltersChange]);
 
     // Reset Filters
     const resetFilters = useCallback(() => {
         setSearch("");
         setSelectedStrategies([]); // Ensure these are arrays
         setSelectedCategories([]);
-        setSelectedReports([]);
-        setSelectedKeyAreas([]);
 
         const defaultFilters: NewFilterProps = {
             Search: "",
             Strategy: [],
             Category: [],
-            Report: [],
-            KeyAreas: [],
         };
 
         setAppliedFilters(defaultFilters);
@@ -134,10 +111,10 @@ export default function Sidebar({
                 <div className="mb-6 flex items-center">
                     <div>
                         <h1 className="text-2xl">
-                            <Link href={"/"}>08-189: Viz Tool</Link>
+                            <Link href={"/"}>NCHRP 08-189 <br /> Tool</Link>
                         </h1>
                         <p className="text-sm text-gray-500">
-                            A tool for visualization and analysis.
+                            Evaluation of TSMO Strategies
                         </p>
                     </div>
                 </div>
@@ -193,7 +170,7 @@ export default function Sidebar({
                         />
                     </div>
 
-                    {/* Report Selector */}
+                    {/* Report Selector
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
                             <FlagIcon className="mr-2 w-4 h-4" /> Reports
@@ -205,9 +182,9 @@ export default function Sidebar({
                             placeholder="Select reports"
                             maxCount={3}
                         />
-                    </div>
+                    </div> */}
 
-                    {/* Key Areas Selector */}
+                    {/* Key Areas Selector
                     <div>
                         <label className="block text-sm font-medium mb-2 flex items-center">
                             <TargetIcon className="mr-2 w-4 h-4" /> Key Areas
@@ -219,7 +196,7 @@ export default function Sidebar({
                             placeholder="Select key areas"
                             maxCount={3}
                         />
-                    </div>
+                    </div> */}
 
                     {/* Reset and Apply Buttons */}
                     <div className="space-y-4">
