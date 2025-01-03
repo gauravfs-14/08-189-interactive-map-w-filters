@@ -100,3 +100,17 @@ body {
 .leaflet-container {
   z-index: 0; /* Adjust to ensure other components appear above */
 }
+
+.leaflet-popup-close-button {
+  padding-top: 15px;
+  padding-right: 30px; /* Add extra padding around the button */
+  background: #c7c7c7; /* Optional: Add a background for better visibility */
+  border-radius: 50%; /* Optional: Make it circular */
+  color: #333; /* Optional: Set the text color */
+  border: none; /* Optional: Remove default border */
+  font-size: 16px; /* Optional: Adjust size */
+}
+
+.leaflet-popup-close-button:hover {
+  background: #e0e0e0; /* Optional: Add hover effect */
+}

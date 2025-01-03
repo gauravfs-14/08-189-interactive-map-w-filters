@@ -166,7 +166,12 @@ export default function Sidebar({
                             <InfoIcon className="mr-2 w-4 h-4" /> Strategies
                         </label>
                         <MultiSelect
-                            options={strategies.map((strategy) => ({ value: strategy, label: strategy }))}
+                            options={strategies.map((strategy) => ({
+                                value: strategy, label: "(" + strategy.split(" ")
+                                    .slice(0, 2)
+                                    .map((word) => word[0]?.toUpperCase())
+                                    .join("") + ") " + strategy
+                            }))}
                             onValueChange={setSelectedStrategies}
                             value={selectedStrategies}
                             placeholder="Select strategies"

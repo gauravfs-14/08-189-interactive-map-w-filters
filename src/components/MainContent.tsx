@@ -109,10 +109,10 @@ export default function MainContent({ data }: MapComponentProps) {
                     >
                         <Popup>
                             <h4 className="text-lg font-bold mb-2">{location.Strategy}</h4>
-                            <p className="text-sm font-medium">Category: {location.Category.join(", ")}</p>
-                            <p className="text-sm font-medium">Report: {location.Report}</p>
-                            <p className="text-sm font-normal mt-2">Details: {location.Details}</p>
-                            <p className="text-sm font-semibold">Key Areas: {location.KeyAreas.join(", ")}</p>
+                            <p className="text-sm font-medium"><span className="font-semibold">Category:</span> {location.Category.join(", ")}</p>
+                            <p className="text-sm font-medium"><span className="font-semibold">Report:</span> {location.Report}</p>
+                            <p className="text-sm font-normal mt-2"><span className="font-semibold">Details:</span> {location.Details}</p>
+                            <p className="text-sm font-normal"><span className="font-semibold">Key Areas:</span> {location.KeyAreas.join(", ")}</p>
                             <Link href={location.Link} target="_blank" rel="noopener noreferrer">
                                 <Button variant="default" size="sm" className="mt-4">
                                     View More Details
