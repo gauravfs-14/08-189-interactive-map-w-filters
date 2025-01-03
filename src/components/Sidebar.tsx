@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { ChevronLeft, ChevronRight, Search, Filter, Group, InfoIcon, FlagIcon, TargetIcon } from "lucide-react";
+import { ChevronLeft, ChevronRight, Search, Group, InfoIcon, FlagIcon, TargetIcon } from "lucide-react";
 import Link from "next/link";
 import { MultiSelect } from "./ui/multi-select";
 import { NewFilterProps } from "@/types/filterProps";
